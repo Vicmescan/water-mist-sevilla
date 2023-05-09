@@ -9,7 +9,7 @@ const Header = () => {
     <Navbar className="navBar" bg="var(--white-color)" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="Water Mist Sevilla Logo"></img>
+          <img className="logo" src={logo} alt="Water Mist Sevilla Logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle>
           <img src={menu} alt="menu icon"></img>

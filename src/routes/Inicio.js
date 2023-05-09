@@ -1,4 +1,5 @@
 import React from "react";
+import CardCarousel from "../components/inicio/CardCarousel";
 
 import { motion } from "framer-motion";
 
@@ -10,7 +11,7 @@ const Inicio = () => {
       animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
     >
-      {/* <h1>Inicio</h1> */}
+      <CardCarousel />
     </motion.div>
   );
 };

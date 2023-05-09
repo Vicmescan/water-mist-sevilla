@@ -1,4 +1,10 @@
 
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
 .navLink {
     color: var(--dark-background-color) !important;
     font-size: 1.2rem !important;
@@ -13,3 +19,9 @@
     color: var(--dark-background-color) !important;
   }
   
+  @media screen and (min-width: 768px) {
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+}

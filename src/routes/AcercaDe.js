@@ -7,7 +7,7 @@ const AcercaDe = () => {
     <motion.div
       className="acerca-de"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1 }  }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
     >
       <h1>Acerca de</h1>

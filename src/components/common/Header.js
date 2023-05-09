@@ -1,22 +1,47 @@
 import React from "react";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav>
-      <NavLink exact to="/" activeClassName="active-link">
-        Inicio
-      </NavLink>
-      <NavLink to="/servicios" activeClassName="active-link">
-        Servicios
-      </NavLink>
-      <NavLink to="/acercaDe" activeClassName="active-link">
-        Acerca de
-      </NavLink>
-      <NavLink to="/contacto" activeClassName="active-link">
-        Contacto
-      </NavLink>
-    </nav>
+
+    <Navbar bg="light" expand="lg">
+    <Container>
+      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#link">Link</Nav.Link>
+          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+    // <nav>
+    //   <NavLink to="/" className="active-link">
+    //     Inicio
+    //   </NavLink>
+    //   <NavLink to="/servicios" className="active-link">
+    //     Servicios
+    //   </NavLink>
+    //   <NavLink to="/acercaDe" className="active-link">
+    //     Acerca de
+    //   </NavLink>
+    //   <NavLink to="/contacto" className="active-link">
+    //     Contacto
+    //   </NavLink>
+    // </nav>
   );
 };
 

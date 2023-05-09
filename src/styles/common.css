@@ -1,0 +1,10 @@
+
+.navLink {
+    color: var(--dark-blackground-color) !important;
+    font-size: 1.2rem !important;
+}
+
+.active {
+    color: var(--light-background-color) !important;
+    text-decoration: underline;
+}

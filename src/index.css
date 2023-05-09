@@ -1,3 +1,11 @@
+@import 'styles/common.css';
+
+:root {
+  --light-background-color: rgb(149,189,182);
+  --dark-blackground-color: rgb(42,124,111);
+  --white-color: rgb(255,253,248) ;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -10,7 +10,7 @@ const Servicios = () => {
       animate={{ opacity: 1, transition: { duration: 1 }  }}
       exit={{ opacity: 0 }}
     >
-      <h1>Servicios</h1>
+      {/* <h1>Servicios</h1> */}
     </motion.div>
   );
 };

@@ -1,6 +1,6 @@
 
 .navLink {
-    color: var(--dark-blackground-color) !important;
+    color: var(--dark-background-color) !important;
     font-size: 1.2rem !important;
 }
 
@@ -8,3 +8,8 @@
     color: var(--light-background-color) !important;
     text-decoration: underline;
 }
+
+.navbar-toggler {
+    color: var(--dark-background-color) !important;
+  }
+  

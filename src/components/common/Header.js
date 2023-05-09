@@ -2,15 +2,18 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from "../../images/logo.webp";
+import menu from "../../images/menu.png"; // Icons made by <a href="https://www.flaticon.com/authors/deha21" title="deha21"> deha21 </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a>
 
 const Header = () => {
   return (
-    <Navbar bg="var(--white-color)" expand="lg">
+    <Navbar className="navBar" bg="var(--white-color)" expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} alt="Water Mist Sevilla Logo"></img>
         </Navbar.Brand>
-        <Navbar.Toggle />
+        <Navbar.Toggle>
+          <img src={menu} alt="menu icon"></img>
+        </Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Item>

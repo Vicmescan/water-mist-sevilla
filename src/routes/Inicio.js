@@ -1,5 +1,6 @@
 import React from "react";
 import CardCarousel from "../components/inicio/CardCarousel";
+import Info from "../components/inicio/Info";
 
 import { motion } from "framer-motion";
 
@@ -12,6 +13,7 @@ const Inicio = () => {
       exit={{ opacity: 0 }}
     >
       <CardCarousel />
+      <Info />
     </motion.div>
   );
 };

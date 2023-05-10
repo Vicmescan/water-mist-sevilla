@@ -1,8 +1,13 @@
 
 .logo {
-    width: 75px;
-    height: 75px;
+    width: 4.5rem;
+    height: 4.5rem;
     margin-right: 10px;
+}
+
+.navBar {
+  background-color: var(--white-color) !important;
+  height: 6vh;
 }
 
 .navLink {

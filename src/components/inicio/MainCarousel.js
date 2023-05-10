@@ -1,7 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import img1 from "../../images/img1.webp";
+import img2 from "../../images/img2.webp";
 import img3 from "../../images/img3.webp";
+import img4 from "../../images/img4.webp";
+import img5 from "../../images/img5.webp";
 
 export const MainCarousel = () => {
   return (
@@ -9,11 +12,11 @@ export const MainCarousel = () => {
       <Carousel.Item>
         <img className="d-block w-100 carousel-image" src={img1} alt="First slide" />
         <Carousel.Caption>
-          <h3 className="carousel-h3">Reducción de temperatura en 10ºC</h3>
+          <h3 className="carousel-h3">Reducción de temperatura en mínimo 10ºC</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100 carousel-image" src={img1} alt="Second slide" />
+        <img className="d-block w-100 carousel-image" src={img4} alt="Second slide" />
         <Carousel.Caption>
           <h3 className="carousel-h3">Disminución de insectos</h3>
         </Carousel.Caption>
@@ -22,6 +25,18 @@ export const MainCarousel = () => {
         <img className="d-block w-100 carousel-image" src={img3} alt="Third slide" />
         <Carousel.Caption>
           <h3 className="carousel-h3">Diseños adaptables y personalizables</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100 carousel-image" src={img2} alt="Fourth slide" />
+        <Carousel.Caption>
+          <h3 className="carousel-h3">Escaso Consumo de energía y agua</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100 carousel-image" src={img5} alt="Fifth slide" />
+        <Carousel.Caption>
+          <h3 className="carousel-h3">Realización de proyecto y presupuesto sin compromiso</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

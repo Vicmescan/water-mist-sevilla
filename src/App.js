@@ -11,10 +11,8 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
         <Header />
         <AnimatedRoutes />
-      </Router>
     </div>
   );
 }

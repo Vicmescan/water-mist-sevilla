@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/water-mist-sevilla/static/css/main.e49de958.css",
-    "main.js": "/water-mist-sevilla/static/js/main.51dc882f.js",
+    "main.js": "/water-mist-sevilla/static/js/main.0f9f8b09.js",
     "static/media/img3.webp": "/water-mist-sevilla/static/media/img3.fc614eb05aee838e6ab1.webp",
     "static/media/img1.webp": "/water-mist-sevilla/static/media/img1.5c7572fb2b90e3a9a520.webp",
     "static/media/logo.webp": "/water-mist-sevilla/static/media/logo.98ffc9a02949013fce53.webp",
     "index.html": "/water-mist-sevilla/index.html",
     "main.e49de958.css.map": "/water-mist-sevilla/static/css/main.e49de958.css.map",
-    "main.51dc882f.js.map": "/water-mist-sevilla/static/js/main.51dc882f.js.map"
+    "main.0f9f8b09.js.map": "/water-mist-sevilla/static/js/main.0f9f8b09.js.map"
   },
   "entrypoints": [
     "static/css/main.e49de958.css",
-    "static/js/main.51dc882f.js"
+    "static/js/main.0f9f8b09.js"
   ]
 }

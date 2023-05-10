@@ -1,11 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { MainCarousel } from "./MainCarousel";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 const CardCarousel = () => {
-
-  const navigate = useNavigate();
 
   return (
     <Container className="cardCarousel">
@@ -13,7 +12,7 @@ const CardCarousel = () => {
         <Col lg className="text">
           <h1 className="title ">WATER MIST SEVILLA</h1>
           <h2 className="title subtitle">Microclima y Climatización</h2>
-          <button className="service-button" onClick={() => navigate('/services')} >Ver servicios</button>
+          <Button className="service-button" as={NavLink} to="/servicios" >Ver servicios</Button>
         </Col>
         <Col lg>
           <MainCarousel />

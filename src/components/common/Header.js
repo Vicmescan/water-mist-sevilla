@@ -6,7 +6,7 @@ import menu from "../../images/menu.png"; // Icons made by <a href="https://www.
 
 const Header = () => {
   return (
-    <Navbar className="navBar" expand="lg">
+    <Navbar className="navBar" expand="md">
       <Container>
         <Navbar.Brand href="/">
           <img className="logo" src={logo} alt="Water Mist Sevilla Logo"></img>

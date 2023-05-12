@@ -1,7 +1,6 @@
 import React from "react";
 import CardCarousel from "../components/inicio/CardCarousel";
 import Info from "../components/inicio/Info";
-
 import { motion } from "framer-motion";
 
 const Inicio = () => {
@@ -12,8 +11,14 @@ const Inicio = () => {
       animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
     >
-      <CardCarousel />
-      <Info />
+      <div className="snap-container">
+        <div>
+          <CardCarousel />
+        </div>
+        <div>
+          <Info />
+        </div>
+      </div>
     </motion.div>
   );
 };

@@ -10,7 +10,7 @@ const AcercaDe = () => {
       animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
     >
-      {/* <h1>Acerca de</h1> */}
+      <h1>Acerca de</h1>
     </motion.div>
   );
 };

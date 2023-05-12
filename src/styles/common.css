@@ -1,39 +1,49 @@
-
 .logo {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-right: 10px;
+  width: 4.5rem;
+  max-height: 100%;
 }
 
+/* .header-background {
+  background-color:     rgba(255, 255, 255, 0.5);
+  -webkit-filter: blur(8px);
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+} */
+
 .navBar {
-  background-color: var(--white-color) !important;
-  height: 6vh;
+  background-color: rgba(255,255,255, 0.8) !important ;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  /* margin: -2vh 0; */
+  /* box-shadow: 0 10px 20px var(--white-color); */
 }
 
 .navLink {
-    color: var(--dark-background-color) !important;
-    font-size: 1.2rem !important;
+  color: var(--dark-background-color) !important;
+  font-size: 1.2rem !important;
 }
 
 .active {
-    color: var(--light-background-color) !important;
-    text-decoration: underline;
+  color: var(--light-background-color) !important;
+  text-decoration: underline;
 }
 
 .navbar-toggler {
-    color: var(--dark-background-color) !important;
-  }
+  color: var(--dark-background-color) !important;
+}
 
-  @media screen and (min-width: 768px) {
-    .logo {
-      margin-top: 1rem;
-    }
+@media screen and (min-width: 768px) {
+  /* .logo {
+    margin-top: 1rem;
+  } */
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    width: 10rem;
+    height: 10rem;
   }
-  
-  @media screen and (min-width: 992px) {
-    .logo {
-      width: 10rem;
-      height: 10rem;
-      margin-top: 6.5rem;
-    }
 }

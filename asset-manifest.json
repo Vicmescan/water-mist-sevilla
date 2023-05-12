@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/water-mist-sevilla/static/css/main.a3649dac.css",
-    "main.js": "/water-mist-sevilla/static/js/main.09616d2b.js",
+    "main.css": "/water-mist-sevilla/static/css/main.3df0eee9.css",
+    "main.js": "/water-mist-sevilla/static/js/main.2cd35e20.js",
     "static/media/toldo.mp4": "/water-mist-sevilla/static/media/toldo.06d77df1816a6002d0bd.mp4",
     "static/media/giralda.mp4": "/water-mist-sevilla/static/media/giralda.21804eb738b285bc284f.mp4",
     "static/media/img2.webp": "/water-mist-sevilla/static/media/img2.159216ec6ea2b5a4edab.webp",
@@ -11,11 +11,11 @@
     "static/media/img4.webp": "/water-mist-sevilla/static/media/img4.eb3806863f8b9f406f5b.webp",
     "static/media/logo.webp": "/water-mist-sevilla/static/media/logo.98ffc9a02949013fce53.webp",
     "index.html": "/water-mist-sevilla/index.html",
-    "main.a3649dac.css.map": "/water-mist-sevilla/static/css/main.a3649dac.css.map",
-    "main.09616d2b.js.map": "/water-mist-sevilla/static/js/main.09616d2b.js.map"
+    "main.3df0eee9.css.map": "/water-mist-sevilla/static/css/main.3df0eee9.css.map",
+    "main.2cd35e20.js.map": "/water-mist-sevilla/static/js/main.2cd35e20.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3649dac.css",
-    "static/js/main.09616d2b.js"
+    "static/css/main.3df0eee9.css",
+    "static/js/main.2cd35e20.js"
   ]
 }

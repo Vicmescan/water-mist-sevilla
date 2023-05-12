@@ -81,7 +81,6 @@
 }
 
 /* Info Section */
-/* Mobile */
 
 .info-background {
   width: 100vw;
@@ -113,20 +112,18 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  z-index: 1;
-  padding-top: 5rem;
-}
-
-.info-text  {
-  background: radial-gradient(
+  /* background: radial-gradient(
     closest-side,
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0)
-  );
-  padding:8rem 1rem
+  ); */
+  background-color:  rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);;
+  margin: 0 1rem;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {

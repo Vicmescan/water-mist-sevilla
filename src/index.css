@@ -1,5 +1,8 @@
 @import 'styles/common.css';
 @import 'styles/inicio.css';
+@import 'styles/servicios.css';
+@import 'styles/acercaDe.css';
+@import 'styles/contacto.css';
 
 :root {
   --light-background-color: rgb(149,189,182);

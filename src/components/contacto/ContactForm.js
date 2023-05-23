@@ -1,0 +1,49 @@
+import React from "react";
+import { Form, Button } from "react-bootstrap";
+
+function ContactForm() {
+  return (
+    <>
+      <h1 className="text-center">O escríbanos</h1>
+      <hr></hr>
+      <Form
+        action="https://formsubmit.co/orejitax@gmail.com"
+        method="POST"
+      >
+        <Form.Group className="mb-3">
+          <Form.Label>Nombre *</Form.Label>
+          <Form.Control required placeholder="Nombre" name="name" />
+          <Form.Label>E-Mail *</Form.Label>
+          <Form.Control
+            required
+            type="email"
+            placeholder="E-Mail"
+            name="email"
+          />
+          <Form.Label>Teléfono</Form.Label>
+          <Form.Control type="tel" placeholder="Teléfono" />
+          <Form.Label>Mensaje *</Form.Label>
+          <Form.Control
+            required
+            as="textarea"
+            rows={3}
+            placeholder="Escriba aquí su mensaje"
+            name="message"
+          />
+        </Form.Group>
+        <Button className="about-submit" variant="outline-dark" type="submit">
+            Enviar
+        </Button>
+
+        <input
+          type="hidden"
+          name="_next"
+          value="http://localhost:3000/#/contacto"
+        ></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+      </Form>
+    </>
+  );
+}
+
+export default ContactForm;

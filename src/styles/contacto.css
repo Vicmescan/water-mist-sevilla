@@ -1,6 +1,6 @@
 .contacto {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   background-color: var(--white-color) !important;
   bottom: 0;
   left: 0;
@@ -14,7 +14,11 @@
   background-color: var(--dark-background-color);
   padding: 5rem 1rem;
   color: var(--white-color) !important;
-  /* margin-top: 50vh; */
+  position: absolute;
+  top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-link {
@@ -33,4 +37,13 @@
 .about-icons:hover {
   transition: transform 0.5s;
   transform: scale(1.4);
+}
+
+@media screen and (min-width: 768px) {
+  .contacto-container {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: solid 1px var(--light-background-color);
+    margin-top: 10vh;
+  }
 }

@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 const Info = () => {
   const [infoVideo, setInfoVideo] = React.useState(giralda);
 
+  /* changing the video depending the width */
   useEffect(() => {
     if (window.innerWidth < 576) {
       setInfoVideo(giralda);

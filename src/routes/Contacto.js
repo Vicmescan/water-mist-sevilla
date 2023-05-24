@@ -14,7 +14,7 @@ const Contacto = () => {
       animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
     >
-      <Container fluid className="contacto-container">
+      <Container className="contacto-container">
         <Row>
           <Col md={5} className="ps-md-5 text-center">
             <ContactText />

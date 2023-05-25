@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.contacto-container h1, .contacto-container h4 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 .about-link {
   color: var(--black-text-color) !important;
   text-decoration: none !important;
@@ -39,11 +43,27 @@
   transform: scale(1.4);
 }
 
+.about-submit {
+  background-color: var(--dark-background-color) !important;
+  border: solid 1px var(--white-color) !important;
+  color: var(--white-color) !important;
+  width: 60% !important;
+}
+
 @media screen and (min-width: 768px) {
   .contacto-container {
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border: solid 1px var(--light-background-color);
-    margin-top: 10vh;
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contacto-container {
+    margin-top: 15vh;
+  }
+  .contactText, .social, .contactForm {
+    width: 25vw !important;
   }
 }

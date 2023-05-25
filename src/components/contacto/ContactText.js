@@ -4,7 +4,7 @@ import { GrMail } from "react-icons/gr";
 
 const ContactText = () => {
   return (
-    <div>
+    <div className="contactText">
       <h1>Contáctanos</h1>
       <hr></hr>
       <h4>Estámos aquí para ayudarle</h4>
@@ -26,9 +26,6 @@ const ContactText = () => {
         </a>
       </h4>
       <br></br>
-        
-      {/* <br className="d-md-none"></br>
-      <br className="d-md-none"></br> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap";
 
 function ContactForm() {
   return (
-    <>
+    <div className="contactForm">
       <h1 className="text-center">O escríbanos</h1>
       <hr></hr>
       <Form
@@ -31,6 +31,7 @@ function ContactForm() {
             name="message"
           />
         </Form.Group>
+        <br></br>
         <Button className="about-submit" variant="outline-dark" type="submit">
             Enviar
         </Button>
@@ -42,7 +43,7 @@ function ContactForm() {
         ></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </Form>
-    </>
+    </div>
   );
 }
 

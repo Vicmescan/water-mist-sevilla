@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 
 const Social = ({display}) => {
   return (
-    <>
+    <div className="social">
       <hr className={display}></hr>
       <h1 className={`${display} justify-content-center`}>Síguenos</h1>
       <br></br>
@@ -32,7 +32,7 @@ const Social = ({display}) => {
           </IconContext.Provider>
         </a>
       </Container>
-    </>
+    </div>
   );
 };
 

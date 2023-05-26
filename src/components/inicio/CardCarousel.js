@@ -6,7 +6,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const CardCarousel = () => {
   return (
-    <Zoom delay={1000} >
+    <Zoom delay={1000} direction="left" >
       <div className="carousel-background">
         <Container className="cardCarousel">
           <Row>

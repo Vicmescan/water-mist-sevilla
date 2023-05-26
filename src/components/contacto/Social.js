@@ -7,7 +7,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const Social = ({ display }) => {
   return (
-    <Zoom delay={1000} direction="left">
+    <Zoom delay={500} direction="left">
       <div className="social">
         <hr className={display}></hr>
         <h1 className={`${display} justify-content-center`}>Síguenos</h1>

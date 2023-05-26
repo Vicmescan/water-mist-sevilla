@@ -14,11 +14,11 @@
 
 .navBar {
   background-color: rgba(255, 255, 255) !important ;
-  width: 100vw;
+  /* width: 100vw;
   position: absolute;
   top: 0;
   z-index: 4  ;
-  margin: -2vh 0;
+  margin: -2vh 0; */
   /* box-shadow: 0 10px 10px var(--white-color); */
 }
 
@@ -27,14 +27,9 @@
   font-size: 1.2rem !important;
 }
 
-.active {
-  color: var(--light-background-color) !important;
-  text-decoration: underline;
-}
-
-.navbar-toggler {
+/* .navbar-toggler {
   color: var(--dark-background-color) !important;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .logo {

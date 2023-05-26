@@ -19,9 +19,9 @@ const Info = () => {
 
   return (
     <div className="info-background">
-      <video src={infoVideo} autoPlay loop muted className="info-video">
-        {" "}
-      </video>
+        <video src={infoVideo} autoPlay loop muted className="info-video">
+          {" "}
+        </video>
       <Fade delay={1000}>
         <div className="info-text">
           <h1 className="title">PROFESIONALES DE CONFIANZA</h1>

@@ -16,7 +16,7 @@ const Header = () => {
           fixed="top"
         >
           <Container>
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="#/">
               <img
                 className="logo"
                 src={logo}

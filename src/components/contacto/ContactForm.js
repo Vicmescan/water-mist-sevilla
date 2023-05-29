@@ -4,7 +4,7 @@ import { Zoom } from "react-awesome-reveal";
 
 function ContactForm() {
   return (
-    <Zoom delay={500} direction="right">
+    <Zoom delay={500} duration={2000} direction="right">
       <div className="contactForm">
         <h1 className="text-center">O escríbanos</h1>
         <hr></hr>

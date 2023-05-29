@@ -5,4 +5,56 @@
     top: 0;
     left: 0;
     position: absolute;
+    z-index: -2;
+}
+
+.acercaDe-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Quienes somos components */
+
+.quienesSomos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-background-color) !important;
+    color: var(--white-color);
+}
+
+.quienesSomos-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px var(--dark-background-color);
+    margin-top: 14vh;
+}
+
+.quienesSomos-paragraph {
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 0 0 10px var(--dark-background-color);
+}
+
+.quienesSomos-button {
+    background-color: var(--dark-background-color);
+    color: var(--white-color);
+    border: solid 1px var(--light-background-color) !important;
+    border-radius: 25px;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0;
+}
+
+.quienesSomos-button:hover {
+    background-color: var(--light-background-color);
 }

@@ -1,27 +1,4 @@
-/* Scrolling control */
-
-.snap-container {
-  height: 100vh;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-.snap-container > div {
-  scroll-snap-align: start;
-}
-
 /* General */
-
-/* .inicio {
-  background-color: var(--light-background-color) !important;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: absolute;
-} */
-
-/* Carousel Section */
 
 .carousel-background {
   background-color: var(--white-color);

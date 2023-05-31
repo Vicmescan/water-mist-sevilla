@@ -11,7 +11,7 @@ const QuienSoy = () => {
           <Row>
             <Col lg>
               <div className="quienSoy-image">
-                <Fade delay={1000} duration={1000}>
+                <Fade delay={700} duration={1000}>
                   <h1 className="quienSoy-title d-flex d-md-none">
                     Hola, Soy Jose Yaque
                   </h1>

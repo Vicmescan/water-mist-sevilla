@@ -28,7 +28,6 @@ const AcercaDe = () => {
         <div>
           <QuienSoy />
         </div>
-        <div className="snap-hole"></div>
         <div>
           <MobileText />
         </div>

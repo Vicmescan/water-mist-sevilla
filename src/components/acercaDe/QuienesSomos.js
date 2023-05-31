@@ -11,9 +11,11 @@ const QuienesSomos = () => {
         <p className="quienesSomos-paragraph">
           Somos un equipo de profesionales certificados capaces de materializar
           cualquier proyecto de climatización, independientemente de su
-          complejidad. Nos motiva el compromiso con la excelencia e invertimos
+          complejidad.</p>
+          <p className="quienesSomos-paragraph"> Nos motiva el compromiso con la excelencia e invertimos
           el esfuerzo y tiempo necesarios para conseguir la completa
-          satisfacción de nuestros clientes. Trabajamos con los mejores
+          satisfacción de nuestros clientes.</p>
+          <p className="quienesSomos-paragraph" > Trabajamos con los mejores
           distribuidores para garantizar que nuestros materiales y productos
           tengan la calidad que mereces.
         </p>

@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { MainCarousel } from "./MainCarousel";
 import { NavLink } from "react-router-dom";
-import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const CardCarousel = () => {
   return (
-    <Zoom delay={1400} duration={2000}>
+    <Fade delay={1600} duration={2000}>
       <div className="carousel-background">
         <Container className="cardCarousel">
           <Row>
@@ -23,7 +23,7 @@ const CardCarousel = () => {
           </Row>
         </Container>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

@@ -1,30 +1,15 @@
-import React, { useEffect } from "react";
-import giralda from "../../assets/videos/giralda.mp4";
-import toldo from "../../assets/videos/toldo.mp4";
-import { Fade } from "react-awesome-reveal";
+import React  from "react";
+import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import { Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const Info = () => {
-  const [infoVideo, setInfoVideo] = React.useState(giralda);
-
-  /* changing the video depending the width */
-  useEffect(() => {
-    if (window.innerWidth < 576) {
-      setInfoVideo(giralda);
-    } else {
-      setInfoVideo(toldo);
-    }
-  }, []);
-
+ 
   return (
     <div className="info-background">
-        <video src={infoVideo} autoPlay loop muted className="info-video">
-          {" "}
-        </video>
-      <Fade delay={1000}>
-        <div className="info-text">
-          <h1 className="title">PROFESIONALES DE CONFIANZA</h1>
+      <div className="info-text">
+        <Fade delay={500} cascade>
+          <AttentionSeeker effect="bounce" delay={5000}> <h1 className="title">PROFESIONALES DE CONFIANZA</h1></AttentionSeeker>
           <br></br>
           <p className="subtitle">
             Water Mist Sevilla es una Compañía experta en climatización de gran
@@ -41,8 +26,8 @@ const Info = () => {
           <Button className="service-button" as={NavLink} to="/acercaDe">
             Acerca de Nosotros
           </Button>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
     </div>
   );
 };

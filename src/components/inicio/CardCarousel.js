@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 const CardCarousel = () => {
   return (
-    <Fade delay={1600} duration={2000}>
+    <Fade delay={1600} duration={1500}>
       <div className="carousel-background">
         <Container className="cardCarousel">
           <Row>

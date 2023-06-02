@@ -1,21 +1,11 @@
-import React, { useEffect, useState} from "react";
+import React from "react";
 import { Fade } from "react-awesome-reveal";
 import catedral1 from "../../assets/images/catedral1.webp";
-import catedral2 from "../../assets/images/catedral2.webp";
 
 const Puntos = () => {
-  const [catedral, setCatedral] = useState(catedral1);
-
-  useEffect(() => {
-    if (window.innerWidth < 576) {
-      setCatedral(catedral1);
-    } else {
-      setCatedral(catedral2);
-    }
-  }, []);
 
   return (
-    <ul className="puntos" style={{background: `url(${catedral})`, backgroundSize: "cover", backgroundPosition: "center"}} >
+    <ul className="puntos" style={{background: `url(${catedral1})`, backgroundSize: "cover", backgroundPosition: "center"}} >
       <Fade
         delay={200}
         duration={1000}

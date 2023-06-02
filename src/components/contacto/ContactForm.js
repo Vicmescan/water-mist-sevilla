@@ -11,16 +11,26 @@ function ContactForm() {
         <Form action="https://formsubmit.co/orejitax@gmail.com" method="POST">
           <Form.Group className="mb-3">
             <Form.Label>Nombre *</Form.Label>
-            <Form.Control required placeholder="Nombre" name="name" />
+            <Form.Control
+              required
+              placeholder="Nombre"
+              name="name"
+              className="contactForm-input"
+            />
             <Form.Label>E-Mail *</Form.Label>
             <Form.Control
               required
               type="email"
               placeholder="E-Mail"
               name="email"
+              className="contactForm-input"
             />
             <Form.Label>Teléfono</Form.Label>
-            <Form.Control type="tel" placeholder="Teléfono" />
+            <Form.Control
+              type="tel"
+              placeholder="Teléfono"
+              className="contactForm-input"
+            />
             <Form.Label>Mensaje *</Form.Label>
             <Form.Control
               required
@@ -28,6 +38,7 @@ function ContactForm() {
               rows={3}
               placeholder="Escriba aquí su mensaje"
               name="message"
+              className="contactForm-input"
             />
           </Form.Group>
           <br></br>

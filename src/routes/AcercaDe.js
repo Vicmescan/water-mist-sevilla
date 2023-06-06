@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import QuienesSomos from "../components/acercaDe/QuienesSomos";
 import QuienSoy from "../components/acercaDe/QuienSoy";
 import Puntos from "../components/acercaDe/Puntos";
 
@@ -15,7 +14,7 @@ const AcercaDe = () => {
     >
       <QuienSoy />
       <Puntos />
-      <QuienesSomos />
+      {/* <QuienesSomos /> */}
     </motion.div>
   );
 };

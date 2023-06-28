@@ -9,7 +9,7 @@ function QuienSoyCarousel() {
           <h1 className="quienSoy-title d-none d-md-block">
             Hola, Soy Jose Yaque
           </h1>
-          <h1 className="quienSoy-title d-md-none">Sobre mí</h1>
+          <h1 className="quienSoy-carousel-title d-md-none">Sobre mí</h1>
         </AttentionSeeker>
         <hr></hr>
         <br></br>
@@ -23,7 +23,7 @@ function QuienSoyCarousel() {
         </p>
       </Carousel.Item>
       <Carousel.Item>
-        <h1 className="quienSoy-title">
+        <h1 className="quienSoy-carousel-title">
           <AttentionSeeker effect="flash" delay={500} triggerOnce="true">
             <b> Water Mist Sevilla</b>
           </AttentionSeeker>

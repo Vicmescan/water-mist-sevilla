@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Header from "./components/common/Header";
 // import AnimatedRoutes from "./components/common/AnimatedRoutes";
 import CardCarousel from "./components/inicio/CardCarousel";
@@ -13,6 +13,12 @@ import "./index.css";
 
 function App() {
 
+  /* Scroll up the page when in load */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  /* Separation section for the navbar controlling scroll */
   const inicio = "inicio";
   const servicios = "servicios";
   const acercaDe = "acercaDe";

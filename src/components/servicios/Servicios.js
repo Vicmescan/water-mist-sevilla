@@ -14,7 +14,7 @@ const Servicios = () => {
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body className="service-card-body">
-                <Card.Title>Microclima y Bioclimatización</Card.Title>
+                <Card.Title><b>Microclima y Bioclimatización</b></Card.Title>
                 <Card.Text>
                   Conoce todas las opciones para climatizar tu negocio o
                   vivienda mediante nuestros sistemas de nebulización de agua y
@@ -30,7 +30,7 @@ const Servicios = () => {
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body className="service-card-body">
-                <Card.Title>Calefacción</Card.Title>
+                <Card.Title><b>Calefacción</b></Card.Title>
                 <Card.Text>
                   Te ayudamos a crear un ambiente cálido y agradable en
                   cualquier espacio gracias a nuestros sistemas de calefacción
@@ -46,7 +46,7 @@ const Servicios = () => {
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body  className="service-card-body">
-                <Card.Title>Servicio Técnico</Card.Title>
+                <Card.Title><b>Servicio Técnico</b></Card.Title>
                 <Card.Text>
                   Contamos con personal cualificado para realizar labores de
                   control y prevención de legionella y estaremos a tu

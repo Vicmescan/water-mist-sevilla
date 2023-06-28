@@ -5,11 +5,19 @@
   align-items: center;
 }
 
+.contacto-slogan {
+  color:var(--dark-background-color);
+  font-size: 1.7rem;
+  font-style: italic;
+  padding: 5rem 1rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
 .contacto-container {
   background-color: var(--dark-background-color);
   padding: 5rem 1rem;
   color: var(--white-color) !important;
-  top: 9vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +25,7 @@
 
 .contacto-container h1,
 .contacto-container h4 {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .about-link {

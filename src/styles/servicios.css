@@ -1,6 +1,6 @@
 .servicios {
     background-color: var(--white-color) !important;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .servicios h1 {
@@ -20,6 +20,7 @@
     background-color: var(--light-background-color) !important;
     color: var(--white-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
 }
 
 @media screen and (min-width: 992px) {

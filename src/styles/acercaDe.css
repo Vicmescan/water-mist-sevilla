@@ -9,7 +9,7 @@
 /* QuienSoy component */
 
 .quienSoy {
-  margin-top: 110vh;
+  margin-top: 130vh;
   position: relative;
 }
 
@@ -62,7 +62,7 @@
   text-shadow: 0 0 10px var(--dark-background-color);
   border-radius: 5px;
   padding: 0 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 576px) {

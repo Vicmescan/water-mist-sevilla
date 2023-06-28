@@ -1,25 +1,19 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { Card, Row, Col, Container } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 const Servicios = () => {
   return (
-    <motion.div
-      className="servicios"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1 } }}
-      exit={{ opacity: 0 }}
-    >
+    <div className="servicios">
       <h1>Servicios</h1>
-      <Container fluid className="d-flex justify-content-center ">
-        <Row xs={1} md={3} className="g-5">
+      <Container className="d-flex vh-100">
+        <Row xs={1} md={2} lg={3} className="g-5 m-auto align-self-center">
           <Col>
-            <Card style={{ width: "22rem" }}>
-              <Card.Header as="h2" className="text-center">
+            <Card>
+              <Card.Header as="h2" className="text-center service-card-title">
                 FRÍO
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
+              <Card.Body className="service-card-body">
                 <Card.Title>Microclima y Bioclimatización</Card.Title>
                 <Card.Text>
                   Conoce todas las opciones para climatizar tu negocio o
@@ -30,12 +24,12 @@ const Servicios = () => {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "22rem" }}>
-              <Card.Header as="h2" className="text-center">
+            <Card>
+              <Card.Header as="h2" className="text-center service-card-title">
                 CALOR
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
+              <Card.Body className="service-card-body">
                 <Card.Title>Calefacción</Card.Title>
                 <Card.Text>
                   Te ayudamos a crear un ambiente cálido y agradable en
@@ -46,12 +40,12 @@ const Servicios = () => {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "22rem" }}>
-              <Card.Header as="h2" className="text-center">
+            <Card>
+              <Card.Header as="h2" className="text-center service-card-title">
                 MANTENIMIENTO
               </Card.Header>
               <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
+              <Card.Body  className="service-card-body">
                 <Card.Title>Servicio Técnico</Card.Title>
                 <Card.Text>
                   Contamos con personal cualificado para realizar labores de
@@ -63,7 +57,7 @@ const Servicios = () => {
           </Col>
         </Row>
       </Container>
-    </motion.div>
+    </div>
   );
 };
 

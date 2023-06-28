@@ -1,10 +1,5 @@
 .contacto {
-  width: 100vw;
-  height: 100vh;
   background-color: var(--white-color) !important;
-  bottom: 0;
-  left: 0;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,14 +9,14 @@
   background-color: var(--dark-background-color);
   padding: 5rem 1rem;
   color: var(--white-color) !important;
-  position: absolute;
   top: 9vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contacto-container h1, .contacto-container h4 {
+.contacto-container h1,
+.contacto-container h4 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -70,7 +65,9 @@
   .contacto-container {
     margin-top: 15vh;
   }
-  .contactText, .social, .contactForm {
+  .contactText,
+  .social,
+  .contactForm {
     width: 25vw !important;
   }
 }

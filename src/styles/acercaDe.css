@@ -1,24 +1,16 @@
-.acercaDe {
+/* .acercaDe {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.acercaDe-img {
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* object-fit: cover;
-  object-position: center;
-  position: absolute;
-  z-index: -1; */
-}
+} */
 
 /* QuienSoy component */
 
 .quienSoy {
-  margin-top: 12vh;
+  margin-top: 110vh;
+  position: relative;
 }
 
 .quienSoy-image {
@@ -26,11 +18,16 @@
   width: 100%;
 }
 
-.quienSoy-title {
+.quienSoy-title, .quienSoy-carousel-title {
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
-  text-shadow: 0 0 10px var(--dark-background-color);
+  color: var(--dark-background-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.quienSoy-carousel-title {
+  color: var(--white-color) !important;
 }
 
 .quienSoy-paragraph {
@@ -73,7 +70,7 @@
     height:60vh;
   }
 
-  .quienSoy-title {
+  .quienSoy-title, .quienSoy-carousel-title {
     font-size: 1.8rem;
   }
 
@@ -101,7 +98,7 @@
       height: 50vh;
     }
 
-    .quienSoy-title {
+    .quienSoy-title, .quienSoy-carousel-title {
       font-size: 2rem;
     }
 

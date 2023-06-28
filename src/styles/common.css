@@ -1,58 +1,31 @@
-/* Scrolling control */
-
-.snap-container {
-  height: 100vh;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-.snap-container > div {
-  scroll-snap-align: start;
-}
-
-.snap-hole {
-  height: 101vh;
-  width: 100vw;
-  overflow: hidden;
-}
-
 .logo {
   width: 4.5rem;
   max-height: 100%;
 }
 
-/* .header-background {
-  background-color:     rgba(255, 255, 255, 0.5);
-  -webkit-filter: blur(8px);
-  height: 10vh;
-  width: 100vw;
-  position: absolute;
-  z-index: -1;
-} */
-
 .navBar {
   background-color: rgba(255, 255, 255) !important ;
-  /* width: 100vw;
-  position: absolute;
-  top: 0;
-  z-index: 4  ;
-  margin: -2vh 0; */
-  /* box-shadow: 0 10px 10px var(--white-color); */
 }
 
 .navLink {
   color: var(--dark-background-color) !important;
-  font-size: 1.2rem !important;
+  font-size: 1.3rem !important;
+  text-decoration: none;
+  cursor: pointer !important;
 }
 
-/* .navbar-toggler {
-  color: var(--dark-background-color) !important;
-} */
+.navLink:hover {
+  color: var(--light-background-color)!important;
+}
 
 @media screen and (min-width: 768px) {
   .logo {
     width: 8rem;
     height: 8rem;
+  }
+  .navLink {
+    font-size: 1.6rem !important;
+    margin: 0 1rem !important;
   }
 }
 

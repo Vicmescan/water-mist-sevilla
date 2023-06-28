@@ -1,15 +1,17 @@
-import React  from "react";
+import React from "react";
 import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import { Button } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
-const Info = () => {
- 
+const Info = ({acercaDe}) => {
   return (
     <div className="info-background">
       <div className="info-text">
-        <Fade delay={500} cascade>
-          <AttentionSeeker effect="bounce" delay={5000}> <h1 className="title">PROFESIONALES DE CONFIANZA</h1></AttentionSeeker>
+        <Fade delay={500} cascade triggerOnce="true" >
+          <AttentionSeeker effect="bounce" delay={5000}>
+            {" "}
+            <h1 className="title">PROFESIONALES DE CONFIANZA</h1>
+          </AttentionSeeker>
           <br></br>
           <p className="subtitle">
             Water Mist Sevilla es una Compañía experta en climatización de gran
@@ -23,9 +25,11 @@ const Info = () => {
             Ofrecemos una amplia variedad de soluciones para todo tipo de
             necesidades de climatización, a nivel particular y empresarial.
           </p>
-          <Button className="service-button" as={NavLink} to="/acercaDe">
-            Acerca de Nosotros
-          </Button>
+          <Link className="nav-Link navLink" smoth="true" to={acercaDe}>
+            <Button className="service-button">
+              Acerca de Nosotros
+            </Button>
+          </Link>
         </Fade>
       </div>
     </div>

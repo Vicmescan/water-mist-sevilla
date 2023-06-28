@@ -5,7 +5,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const ContactText = () => {
   return (
-    <Zoom delay={500} duration={2000} direction="left" >
+    <Zoom delay={500} duration={2000} direction="left" triggerOnce="true" >
       <div className="contactText">
         <h1>Contáctanos</h1>
         <hr></hr>

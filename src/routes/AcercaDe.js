@@ -14,7 +14,6 @@ const AcercaDe = () => {
     >
       <QuienSoy />
       <Puntos />
-      {/* <QuienesSomos /> */}
     </motion.div>
   );
 };

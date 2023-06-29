@@ -4,6 +4,7 @@ import Header from "./components/common/Header";
 import CardCarousel from "./components/inicio/CardCarousel";
 import Info from "./components/inicio/Info";
 import Servicios from "./components/servicios/Servicios";
+import Sectores from "./components/sectores/Sectores";
 import QuienSoy from "./components/acercaDe/QuienSoy";
 import Puntos from "./components/acercaDe/Puntos";
 import Contacto from "./components/contacto/Contacto";
@@ -34,6 +35,7 @@ function App() {
       <Info acercaDe={acercaDe} />
       <section id="servicios"></section>
       <Servicios />
+      <Sectores />
       <section id="acercaDe"></section>
       <QuienSoy />
       <Puntos />

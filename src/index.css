@@ -1,6 +1,7 @@
 @import 'styles/common.css';
 @import 'styles/inicio.css';
 @import 'styles/servicios.css';
+@import 'styles/sectores.css';
 @import 'styles/acercaDe.css';
 @import 'styles/contacto.css';
 
@@ -17,9 +18,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

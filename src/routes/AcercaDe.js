@@ -1,21 +1,21 @@
-import React from "react";
-import { motion } from "framer-motion";
-import QuienSoy from "../components/acercaDe/QuienSoy";
-import Puntos from "../components/acercaDe/Puntos";
+// import React from "react";
+// import { motion } from "framer-motion";
+// import QuienSoy from "../components/acercaDe/QuienSoy";
+// import Puntos from "../components/acercaDe/Puntos";
 
-const AcercaDe = () => {
+// const AcercaDe = () => {
 
-  return (
-    <motion.div
-      className="acercaDe"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1 } }}
-      exit={{ opacity: 0 }}
-    >
-      <QuienSoy />
-      <Puntos />
-    </motion.div>
-  );
-};
+//   return (
+//     <motion.div
+//       className="acercaDe"
+//       initial={{ opacity: 0 }}
+//       animate={{ opacity: 1, transition: { duration: 1 } }}
+//       exit={{ opacity: 0 }}
+//     >
+//       <QuienSoy />
+//       <Puntos />
+//     </motion.div>
+//   );
+// };
 
-export default AcercaDe;
+// export default AcercaDe;

@@ -26,7 +26,10 @@ const Header = ({ inicio, servicios, acercaDe, contacto }) => {
                 <span>Inicio</span>
               </Link>
               <Link className="nav-Link navLink" smoth="true" to={servicios}>
-                <span>Servicios</span>
+                <span>Productos y Servicios</span>
+              </Link>
+              <Link className="nav-Link navLink" smoth="true" to={servicios}>
+                <span>Sectores y Aplicación</span>
               </Link>
               <Link className="nav-Link navLink" smoth="true" to={acercaDe}>
                 <span>Acerca de</span>

@@ -1,16 +1,7 @@
-/* .acercaDe {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
-
 /* QuienSoy component */
 
 .quienSoy {
-  margin-top: 130vh;
-  position: relative;
+  margin-top: 10vh;
 }
 
 .quienSoy-image {
@@ -18,7 +9,8 @@
   width: 100%;
 }
 
-.quienSoy-title, .quienSoy-carousel-title {
+.quienSoy-title,
+.quienSoy-carousel-title {
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
@@ -40,8 +32,8 @@
 }
 
 .quienSoyCarousel {
- padding: 1rem 0;
- height: 70vh;
+  padding: 1rem 0;
+  height: 70vh;
 }
 
 .carousel-indicators * {
@@ -51,7 +43,7 @@
 /* Puntos */
 
 .puntos {
-  width: 100%;
+  /* width: 100%; */
   padding: 5vh 2rem;
 }
 
@@ -63,14 +55,16 @@
   border-radius: 5px;
   padding: 0 1rem;
   font-size: 1.5rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 576px) {
   .quienSoy {
-    height:60vh;
+    height: 60vh;
   }
 
-  .quienSoy-title, .quienSoy-carousel-title {
+  .quienSoy-title,
+  .quienSoy-carousel-title {
     font-size: 1.8rem;
   }
 
@@ -93,12 +87,12 @@
 
   @media screen and (min-width: 768px) {
     .quienSoy {
-      margin-top: 25vh !important;
       margin-bottom: 0;
       height: 50vh;
     }
 
-    .quienSoy-title, .quienSoy-carousel-title {
+    .quienSoy-title,
+    .quienSoy-carousel-title {
       font-size: 2rem;
     }
 
@@ -121,7 +115,6 @@
 
   @media screen and (min-width: 992px) {
     .quienSoy {
-      margin-top: 25vh;
       width: 70%;
     }
 
@@ -131,9 +124,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-
     .quienSoy {
-      margin-top: 25vh;
       width: 50%;
     }
 
@@ -142,5 +133,3 @@
     }
   }
 }
-
-

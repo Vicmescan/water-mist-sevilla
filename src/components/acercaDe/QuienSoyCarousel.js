@@ -39,13 +39,6 @@ function QuienSoyCarousel() {
           Trabajamos con los mejores distribuidores para garantizar que nuestros
           materiales y productos tengan la calidad que mereces.
         </p>
-        {/* <p className="quienesSomos-paragraph">
-            Póngase en contacto con nosotros para concertar una cita sin
-            compromiso.
-          </p>
-          <Button className="quienesSomos-button" as={NavLink} to="/contacto">
-            Contactar
-          </Button> */}
       </Carousel.Item>
     </Carousel>
   );

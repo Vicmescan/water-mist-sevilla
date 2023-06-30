@@ -7,8 +7,7 @@ import toldo from "../../assets/videos/toldo.mp4";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 const CardCarousel = ({ servicios }) => {
-
-  const [ infoVideo, setInfoVideo ] = useState(toldo);
+  const [infoVideo, setInfoVideo] = useState(toldo);
 
   useEffect(() => {
     if (window.innerWidth < 576) {
@@ -23,7 +22,7 @@ const CardCarousel = ({ servicios }) => {
       <video src={infoVideo} autoPlay loop muted className="info-video">
         {" "}
       </video>
-      <Fade delay={1600} duration={1500} triggerOnce="true" >
+      <Fade delay={1600} duration={1500} triggerOnce="true">
         <div className="carousel-background">
           <Container className="cardCarousel">
             <Row>

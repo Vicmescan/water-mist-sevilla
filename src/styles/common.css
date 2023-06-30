@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--white-color);
+  z-index: -3;
 }
 
 /* header y navbar */
@@ -14,7 +15,7 @@
 }
 
 .navBar {
-  background-color: var(--white-color) !important ;
+  background-color:  rgba(252, 252, 252, 0.938) !important;
 }
 
 .navLink {

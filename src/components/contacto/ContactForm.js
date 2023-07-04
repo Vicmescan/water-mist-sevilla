@@ -41,6 +41,14 @@ function ContactForm() {
               className="contactForm-input"
             />
           </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Check
+              required
+              label="Está de acuerdo con los terminos y condiciones"
+              feedback="Debe estar de acuerdo para continuar"
+              feedbackType="invalid"
+            />
+          </Form.Group>
           <br></br>
           <Button className="about-submit" variant="outline-dark" type="submit">
             Enviar

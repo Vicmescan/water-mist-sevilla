@@ -58,6 +58,13 @@
   width: 100%;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 576px) {
   .quienSoy {
     height: 60vh;
@@ -84,6 +91,10 @@
     width: 90%;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .logos {
+    flex-direction: row;
   }
 
   @media screen and (min-width: 768px) {

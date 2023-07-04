@@ -7,6 +7,7 @@ import Servicios from "./components/servicios/Servicios";
 import Sectores from "./components/sectores/Sectores";
 import QuienSoy from "./components/acercaDe/QuienSoy";
 import Puntos from "./components/acercaDe/Puntos";
+import Logos from "./components/acercaDe/Logos";
 import Contacto from "./components/contacto/Contacto";
 import CookieConsent from "react-cookie-consent";
 
@@ -41,6 +42,7 @@ function App() {
       <section id="acercaDe"></section>
       <QuienSoy />
       <Puntos />
+      <Logos />
       <section id="contacto"></section>
       <Contacto />
       <CookieConsent

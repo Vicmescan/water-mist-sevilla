@@ -8,7 +8,7 @@ const Header = ({ inicio, servicios, acercaDe, contacto }) => {
 
   return (
     <>
-      <Navbar collapseOnSelect className="navBar fluid" expand="md" fixed="top">
+      <Navbar collapseOnSelect className="navBar fluid" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="/">
             <img

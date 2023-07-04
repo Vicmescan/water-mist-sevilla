@@ -22,19 +22,21 @@ function App() {
   /* Separation section for the navbar controlling scroll */
   const inicio = "inicio";
   const servicios = "servicios";
+  const sectores = "sectores";
   const acercaDe = "acercaDe";
   const contacto = "contacto";
 
 
   return (
     <div className="app">
-      <Header inicio={inicio} servicios={servicios} acercaDe={acercaDe} contacto={contacto} />
+      <Header inicio={inicio} servicios={servicios} acercaDe={acercaDe} sectores={sectores} contacto={contacto} />
       {/* <AnimatedRoutes /> }  (componenente para cambiar de ruta, activar para hacer web multipágina) */}
       <section id="inicio"></section>
       <CardCarousel servicios={servicios} />
       <Info acercaDe={acercaDe} />
       <section id="servicios"></section>
       <Servicios />
+      <section id="sectores"></section>
       <Sectores />
       <section id="acercaDe"></section>
       <QuienSoy />

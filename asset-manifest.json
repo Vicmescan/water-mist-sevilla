@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/water-mist-sevilla/static/css/main.011f894d.css",
-    "main.js": "/water-mist-sevilla/static/js/main.db6e7651.js",
+    "main.css": "/water-mist-sevilla/static/css/main.0977fe51.css",
+    "main.js": "/water-mist-sevilla/static/js/main.b4427b40.js",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/toldo.mp4": "/water-mist-sevilla/static/media/toldo.06d77df1816a6002d0bd.mp4",
     "static/media/giralda.mp4": "/water-mist-sevilla/static/media/giralda.21804eb738b285bc284f.mp4",
@@ -10,14 +10,17 @@
     "static/media/img3.webp": "/water-mist-sevilla/static/media/img3.fc614eb05aee838e6ab1.webp",
     "static/media/img5.webp": "/water-mist-sevilla/static/media/img5.65adfb9036dcb8e961cb.webp",
     "static/media/img1.webp": "/water-mist-sevilla/static/media/img1.5c7572fb2b90e3a9a520.webp",
+    "static/media/calefacción.webp": "/water-mist-sevilla/static/media/calefacción.eb00c733f265b0aadcc2.webp",
     "static/media/img4.webp": "/water-mist-sevilla/static/media/img4.eb3806863f8b9f406f5b.webp",
     "static/media/logo.webp": "/water-mist-sevilla/static/media/logo.98ffc9a02949013fce53.webp",
+    "static/media/enac.webp": "/water-mist-sevilla/static/media/enac.2213d182955194ec1cc5.webp",
+    "static/media/junta.webp": "/water-mist-sevilla/static/media/junta.ab09b72bb84f47de0b3d.webp",
     "index.html": "/water-mist-sevilla/index.html",
-    "main.011f894d.css.map": "/water-mist-sevilla/static/css/main.011f894d.css.map",
-    "main.db6e7651.js.map": "/water-mist-sevilla/static/js/main.db6e7651.js.map"
+    "main.0977fe51.css.map": "/water-mist-sevilla/static/css/main.0977fe51.css.map",
+    "main.b4427b40.js.map": "/water-mist-sevilla/static/js/main.b4427b40.js.map"
   },
   "entrypoints": [
-    "static/css/main.011f894d.css",
-    "static/js/main.db6e7651.js"
+    "static/css/main.0977fe51.css",
+    "static/js/main.b4427b40.js"
   ]
 }

@@ -11,6 +11,7 @@
   font-size: 2.5rem;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5vh;
 }
 
 .swiper {
@@ -47,6 +48,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sectores-header {
+    margin-bottom: 10vh;
+  }
+
   .mySwiper {
     width: 90vw !important;
   }

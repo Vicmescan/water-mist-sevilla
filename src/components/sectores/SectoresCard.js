@@ -13,13 +13,14 @@ const SectoresCard = ({ pic, title, modalText }) => {
   return (
     <>
       <Card className="service-card" onClick={handleShow} >
-        <Card.Img variant="top" src={pic} className="service-card-picture" />
+      <Card.Header>{pic}</Card.Header>
         <Card.Body className="sector service-card-body">
           <Card.Title className="text-center service-card-title">
             <b>{title}</b>
           </Card.Title>
         </Card.Body>
       </Card>
+
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

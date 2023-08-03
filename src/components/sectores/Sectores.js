@@ -15,7 +15,11 @@ import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
 
 
 import SectoresCard from "./SectoresCard";
-import foto1 from "../../assets/images/calefacción.webp";
+import { LiaIndustrySolid } from 'react-icons/lia';
+import { AiOutlineHome } from 'react-icons/ai';
+import { IoRestaurantOutline } from 'react-icons/io5';
+import { MdOutlineSportsBasketball } from 'react-icons/md';
+import { RiLandscapeLine } from 'react-icons/ri';
 
 import {
   Industrial,
@@ -25,7 +29,6 @@ import {
   Paisajismo,
 } from "./ModalText.js";
 
-import { Fade } from "react-awesome-reveal";
 
 export default function Sectores() {
   const [slidesPerView, setSlidesPerView] = useState(5);
@@ -47,7 +50,6 @@ export default function Sectores() {
 
   return (
     <>
-    <Fade duration={600}>
     <h1 className="sectores-header">Sectores y Aplicación</h1>
       <Swiper
         slidesPerView={slidesPerView}
@@ -66,41 +68,40 @@ export default function Sectores() {
       >
         <SwiperSlide>
           <SectoresCard
-            pic={foto1}
+            pic={<LiaIndustrySolid size="150px"/>}
             title={"INDUSTRIAL"}
             modalText={<Industrial />}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={foto1}
+            pic={<AiOutlineHome size="150px"/>}
             title={"RESIDENCIAL"}
             modalText={<Residencial />}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={foto1}
+            pic={<IoRestaurantOutline size="150px"/>}
             title={"HOSTELERÍA"}
             modalText={<Hosteleria />}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={foto1}
+            pic={<MdOutlineSportsBasketball size="150px" />}
             title={"ZONAS DEPORTIVAS Y EVENTOS"}
             modalText={<Deportivas />}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={foto1}
+            pic={<RiLandscapeLine size="150px"/>}
             title={"PAISAJISMO Y EFECTOS VISUALES"}
             modalText={<Paisajismo />}
           />
         </SwiperSlide>
       </Swiper>
-      </Fade>
     </>
   );
 }

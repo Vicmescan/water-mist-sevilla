@@ -1,12 +1,16 @@
 /* QuienSoy component */
 
 .quienSoy {
-  margin-top: 10vh;
+  background-color: var(--white-color);
 }
 
 .quienSoy-image {
   border-radius: 5px;
   width: 100%;
+}
+
+.quienSoy-title {
+  margin-top: 12vh;
 }
 
 .quienSoy-title,
@@ -19,12 +23,12 @@
 }
 
 .quienSoy-carousel-title {
-  color: var(--white-color) !important;
+  color: var(--dark-background-color);
 }
 
 .quienSoy-paragraph {
   color: var(--white-color) !important;
-  background-color: var(--light-background-color) !important;
+  /* background-color: var(--light-background-color) !important; */
   font-size: 1.3rem;
   text-align: center;
   text-shadow: 0 0 10px var(--dark-background-color);
@@ -34,6 +38,8 @@
 .quienSoyCarousel {
   padding: 1rem 0;
   height: 70vh;
+  background-color: var(--white-color);
+  color: var(--dark-background-color);
 }
 
 .carousel-indicators * {
@@ -44,7 +50,11 @@
 
 .puntos {
   /* width: 100%; */
-  padding: 5vh 2rem;
+  padding: 12vh 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .puntos-item {
@@ -73,7 +83,7 @@
   .quienSoy-title,
   .quienSoy-carousel-title {
     font-size: 1.8rem;
-    color: var(--white-color)
+    color: var(--white-color);
   }
 
   .quienSoy-paragraph {

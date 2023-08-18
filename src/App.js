@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/common/Header";
 // import AnimatedRoutes from "./components/common/AnimatedRoutes";
 import CardCarousel from "./components/inicio/CardCarousel";
@@ -11,14 +11,16 @@ import Logos from "./components/acercaDe/Logos";
 import Contacto from "./components/contacto/Contacto";
 import CookieConsent from "react-cookie-consent";
 
+import giralda from "./assets/videos/giralda.mp4";
+import toldo from "./assets/videos/toldo.mp4";
+
 import "./index.css";
 
 function App() {
-
   /* Scroll up the page when in load */
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   /* Separation section for the navbar controlling scroll */
   const inicio = "inicio";
@@ -27,24 +29,67 @@ function App() {
   const acercaDe = "acercaDe";
   const contacto = "contacto";
 
+  const [infoVideo, setInfoVideo] = useState(toldo);
+  const [opacity, setOpacity] = useState(1);
+
+  useEffect(() => {
+    if (window.innerWidth < 576) {
+      setInfoVideo(giralda);
+    } else {
+      setInfoVideo(toldo);
+    }
+  }, []);
+
+  setTimeout(() => {
+    setTimeout((setOpacity(0), 5000));
+  }, "5000");
 
   return (
     <div className="app">
-      <Header inicio={inicio} servicios={servicios} acercaDe={acercaDe} sectores={sectores} contacto={contacto} />
+      <video
+        src={infoVideo}
+        autoPlay
+        loop
+        muted
+        className="info-video"
+        style={{ opacity: `${opacity}` }}
+      >
+        {" "}
+      </video>
+      <Header
+        inicio={inicio}
+        servicios={servicios}
+        acercaDe={acercaDe}
+        sectores={sectores}
+        contacto={contacto}
+      />
       {/* <AnimatedRoutes /> }  (componenente para cambiar de ruta, activar para hacer web multipágina) */}
-      <section id="inicio"></section>
-      <CardCarousel servicios={servicios} />
-      <Info acercaDe={acercaDe} />
-      <section id="servicios"></section>
-      <Servicios />
-      <section id="sectores"></section>
-      <Sectores />
-      <section id="acercaDe"></section>
-      <QuienSoy />
-      <Puntos />
-      <Logos />
-      <section id="contacto"></section>
-      <Contacto />
+      <div className="snap-container">
+        <div>
+          <section id="inicio"></section>
+          <CardCarousel servicios={servicios} />
+        </div>
+        <div>
+          <Info acercaDe={acercaDe} />
+          <section id="servicios"></section>
+        </div>
+        <Servicios />
+        <section id="sectores"></section>
+        <Sectores />
+        <div>
+          <div>
+            <section id="acercaDe"></section>
+          </div>
+          <QuienSoy />
+        </div>
+        <div>
+          <Puntos />
+          <Logos />
+          <section id="contacto"></section>
+          <Contacto />
+        </div>
+      </div>
+
       <CookieConsent
         location="bottom"
         buttonText="Aceptar"

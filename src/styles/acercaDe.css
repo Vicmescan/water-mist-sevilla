@@ -2,6 +2,7 @@
 
 .quienSoy {
   background-color: var(--white-color);
+  padding: 5rem 0;
 }
 
 .quienSoy-image {
@@ -73,6 +74,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin:5rem 0 5rem 0;
+  padding-bottom: 20rem;
 }
 
 @media screen and (min-width: 576px) {

@@ -85,6 +85,8 @@ function App() {
         <div>
           <Puntos />
           <Logos />
+        </div>
+        <div>
           <section id="contacto"></section>
           <Contacto />
         </div>

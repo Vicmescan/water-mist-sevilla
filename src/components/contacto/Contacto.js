@@ -3,17 +3,14 @@ import ContactText from "./ContactText";
 import ContactForm from "./ContactForm";
 import Social from "./Social";
 import { Container, Row, Col } from "react-bootstrap";
-import { AttentionSeeker } from "react-awesome-reveal";
 
 const Contacto = () => {
   return (
     <>
-      <AttentionSeeker effect="heartBeat" delay={300}>
         <p className="contacto-slogan">
           Póngase en contacto con nosotros para concertar una cita{" "}
           <b>sin compromiso.</b>
         </p>
-      </AttentionSeeker>
       <Container className="contacto-container">
         <Row>
           <Col md={5} className="ps-md-5 text-center">

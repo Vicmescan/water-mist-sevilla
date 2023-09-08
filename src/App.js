@@ -23,11 +23,19 @@ function App() {
   // }, []);
 
   /* Separation section for the navbar controlling scroll */
-  const inicio = "inicio";
-  const servicios = "servicios";
-  const sectores = "sectores";
-  const acercaDe = "acercaDe";
-  const contacto = "contacto";
+  // const inicio = "inicio";
+  // const servicios = "servicios";
+  // const sectores = "sectores";
+  // const acercaDe = "acercaDe";
+  // const contacto = "contacto";
+
+  const [scrollElement, setScrollElement] = useState("inicio");
+
+  console.log(scrollElement);
+
+  // useEffect(() => {
+  //   document.getElementById(scrollElement).scrollIntoView({behavior: "smooth"})
+  // }, setScrollElement)
 
   const [infoVideo, setInfoVideo] = useState(toldo);
   const [opacity, setOpacity] = useState(1);
@@ -42,7 +50,7 @@ function App() {
 
   setTimeout(() => {
     setTimeout((setOpacity(0), 5000));
-  }, "5000");
+  }, "1600");
 
   return (
     <div className="app">
@@ -57,32 +65,29 @@ function App() {
         {" "}
       </video>
       <Header
-        inicio={inicio}
-        servicios={servicios}
-        acercaDe={acercaDe}
-        sectores={sectores}
-        contacto={contacto}
+        // inicio={inicio}
+        // servicios={servicios}
+        // acercaDe={acercaDe}
+        // sectores={sectores}
+        // contacto={contacto}
+        setScrollElement={setScrollElement}
       />
       {/* <AnimatedRoutes /> }  (componenente para cambiar de ruta, activar para hacer web multipágina) */}
       <div className="snap-container">
         <div>
           <section id="inicio"></section>
-          <CardCarousel servicios={servicios} />
+          <CardCarousel />
         </div>
         <div>
-          <Info acercaDe={acercaDe} />
+          <Info />
           <section id="servicios"></section>
         </div>
         <Servicios />
         <section id="sectores"></section>
         <Sectores />
         <div>
-          <div>
-            <section id="acercaDe"></section>
-          </div>
+          <section id="acercaDe"></section>
           <QuienSoy />
-        </div>
-        <div>
           <Puntos />
           <Logos />
         </div>

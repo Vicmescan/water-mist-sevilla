@@ -13,10 +13,9 @@ import "swiper/css/navigation";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
 
 const Servicios = () => {
-
   const [slidesPerView, setSlidesPerView] = useState(5);
-  
-  useEffect(() => {
+
+  const handleResize = () => {
     if (window.innerWidth < 1200) {
       setSlidesPerView(4.5);
     }
@@ -29,10 +28,13 @@ const Servicios = () => {
     if (window.innerWidth < 575) {
       setSlidesPerView(1.5);
     }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize, false);
   }, []);
 
   return (
-
     <Container className="d-flex servicios">
       <h1>Productos y Servicios</h1>
       <Swiper

@@ -31,7 +31,7 @@ import {
 export default function Sectores() {
   const [slidesPerView, setSlidesPerView] = useState(5);
 
-  useEffect(() => {
+  const handleResize = () => {
     if (window.innerWidth < 1200) {
       setSlidesPerView(4.5);
     }
@@ -44,8 +44,12 @@ export default function Sectores() {
     if (window.innerWidth < 575) {
       setSlidesPerView(1.5);
     }
-  }, []);
+  };
 
+  useEffect(() => {
+    window.addEventListener("resize", handleResize, false);
+  }, []);
+  
   return (
     <div className="sectores">
       <h1 className="sectores-header">Sectores y Aplicación</h1>

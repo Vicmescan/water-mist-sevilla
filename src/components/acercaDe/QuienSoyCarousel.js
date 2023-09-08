@@ -3,7 +3,7 @@ import { AttentionSeeker } from "react-awesome-reveal";
 
 function QuienSoyCarousel() {
   return (
-    <Carousel interval={10000} rounded="true" className="quienSoyCarousel" >
+    <Carousel interval={7000} rounded="true" className="quienSoyCarousel" >
       <Carousel.Item>
         <AttentionSeeker effect="flash" delay={500} triggerOnce="true">
           <h1 className="quienSoy-title d-none d-md-block">

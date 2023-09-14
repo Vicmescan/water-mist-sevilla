@@ -7,11 +7,11 @@ import { Container, Row, Col } from "react-bootstrap";
 const Contacto = () => {
   return (
     <>
-        <p className="contacto-slogan">
-          Póngase en contacto con nosotros para concertar una cita{" "}
-          <b>sin compromiso.</b>
-        </p>
-      <Container className="contacto-container">
+      <p className="contacto-slogan">
+        Póngase en contacto con nosotros para concertar una cita{" "}
+        <b>sin compromiso.</b>
+      </p>
+      <Container fluid="md" className="contacto-container">
         <Row>
           <Col md={5} className="ps-md-5 text-center">
             <ContactText />

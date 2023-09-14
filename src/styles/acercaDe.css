@@ -74,25 +74,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:5rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
   padding-bottom: 15rem;
 }
 
 @media screen and (min-width: 576px) {
   .quienSoy {
-    height: 60vh;
+    padding-top: 15vh !important;
   }
 
   .quienSoy-title,
   .quienSoy-carousel-title {
     font-size: 1.8rem;
-    color: var(--white-color);
+    color: var(--dark-background-color);
+    margin-top: 0;
+  }
+
+  .quienSoy-pictureSide {
+    height: 100%;
+    top: 0 !important;
   }
 
   .quienSoy-paragraph {
     font-size: 1rem;
-    /* background-color: var(--white-color) !important;
-    color: var(--dark-background-color) !important; */
   }
 
   .quienSoyCarousel {
@@ -101,60 +105,60 @@
   }
 
   .puntos {
-    width: 90%;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height:100%;
   }
 
   .logos {
     flex-direction: row;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .quienSoy {
-      margin-bottom: 0;
-      height: 50vh;
-    }
-
-    .quienSoy-title,
-    .quienSoy-carousel-title {
-      font-size: 2rem;
-    }
-
-    .quienSoy-paragraph {
-      font-size: 1.2rem;
-    }
-
-    .puntos {
-      width: 85%;
-      margin: 10vh;
-      border-radius: 5px;
-      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .puntos-item {
-      font-size: 1.4rem;
-      margin: 1rem auto;
-    }
+@media screen and (min-width: 768px) {
+  .quienSoy {
+    margin-bottom: 0;
+    height: 50vh;
   }
 
-  @media screen and (min-width: 992px) {
-    .quienSoy {
-      width: 70%;
-    }
-
-    .puntos {
-      width: 70%;
-    }
+  .quienSoy-title,
+  .quienSoy-carousel-title {
+    font-size: 2rem;
   }
 
-  @media screen and (min-width: 1200px) {
-    .quienSoy {
-      width: 50%;
-    }
+  .quienSoy-paragraph {
+    font-size: 1.2rem;
+  }
 
-    .puntos {
-      width: 50%;
-    }
+  .puntos {
+    width: 85%;
+    margin: 15vh auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .puntos-item {
+    font-size: 1.4rem;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .quienSoy {
+    width: 70%;
+  }
+
+  .puntos {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quienSoy {
+    width: 50%;
+  }
+
+  .puntos {
+    width: 50%;
   }
 }

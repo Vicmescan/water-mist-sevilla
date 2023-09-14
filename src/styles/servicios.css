@@ -1,6 +1,7 @@
 .servicios {
-    margin-top: 70vh !important;
     height:100vh !important;
+    width:100vw !important;
+    margin: auto;
     background-color: var(--white-color);
     display: flex !important;
     flex-direction: column;
@@ -25,6 +26,7 @@
 .service-card-title {
     color: var(--dark-background-color) !important;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
 }
 
 .service-card-picture {
@@ -39,9 +41,9 @@
     font-size: 1.2rem;
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 768px) {
 
     .service-card-title {
         font-size: 1.6rem;
     }
-  }
+  } */

@@ -10,7 +10,7 @@ const QuienSoy = () => {
     <div className="quienSoy">
       <Container>
         <Row>
-          <Col xs={12} sm={5} md={5}>
+          <Col xs={12} sm={5} className="quienSoy-pictureSide" >
             <AttentionSeeker effect="flash" delay={500}>
               <h1 className="quienSoy-title d-md-none p-1">
                 Hola, Soy Jose Yaque
@@ -25,7 +25,7 @@ const QuienSoy = () => {
             />
             <br className="d-md-none"></br>
           </Col>
-          <Col xs={12} sm={7} md={7} className="quienSoy-paragraph">
+          <Col xs={12} sm={7} className="quienSoy-paragraph">
             <QuienSoyCarousel />
           </Col>
         </Row>

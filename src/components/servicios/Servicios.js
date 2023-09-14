@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import foto1 from "../../assets/images/calefacción.webp";
-import { Container, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -31,11 +31,12 @@ const Servicios = () => {
   };
 
   useEffect(() => {
+    handleResize();
     window.addEventListener("resize", handleResize, false);
   }, []);
 
   return (
-    <Container className="d-flex servicios">
+    <div className="servicios">
       <h1>Productos y Servicios</h1>
       <Swiper
         slidesPerView={slidesPerView}
@@ -160,7 +161,7 @@ const Servicios = () => {
           </Card>
         </SwiperSlide>
       </Swiper>
-    </Container>
+    </div>
   );
 };
 

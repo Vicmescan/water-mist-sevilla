@@ -47,6 +47,7 @@ export default function Sectores() {
   };
 
   useEffect(() => {
+    handleResize();
     window.addEventListener("resize", handleResize, false);
   }, []);
   

@@ -80,8 +80,8 @@ function App() {
         </div>
         <div>
           <Info />
-          <section id="servicios"></section>
         </div>
+        <section id="servicios"></section>
         <Servicios />
         <section id="sectores"></section>
         <Sectores />

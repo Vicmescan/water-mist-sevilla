@@ -1,7 +1,6 @@
 /* Muchas clases ya están descritas en servicios */
 
 .sectores {
-  margin-top: 70vh !important;
   height:100vh !important;
   background-color: var(--white-color);
   display: flex !important;

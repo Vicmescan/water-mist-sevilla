@@ -77,7 +77,6 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  box-shadow: 2px 2px 10px var(--dark-background-color);
 }
 
 .info-text {
@@ -121,10 +120,13 @@
   }
   .info-background {
     width:70%;
+    margin: 5px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
   }
   .info-text {
-    /* width: 70%; */
-    padding: 3rem 8rem;
-    margin-top: 10vh;
+    height:100%;
+    width: 100%;
+    padding: 5rem;
   }
 }

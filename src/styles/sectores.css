@@ -64,3 +64,9 @@
     width: 90vw !important;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .sectores {
+    height: auto !important;
+  }
+}

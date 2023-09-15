@@ -22,7 +22,7 @@ const Header = ({ inicio, servicios, sectores, acercaDe, contacto, setScrollElem
             <img src={menu} alt="menu icon"></img>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="justify-content-end" style={{ width: "100%" }}>
               <Link className="nav-Link navLink" smoth="true" onClick={() => setScrollElement("inicio") } >
                 <span>Inicio</span>
               </Link>

@@ -29,7 +29,6 @@
 
 .snap-container > div {
   scroll-snap-align: start;
-  /* height:100vh; */
 }
 
 /* header y navbar */
@@ -41,6 +40,7 @@
 
 .navBar {
   background-color:  rgba(252, 252, 252, 0.938) !important;
+  padding: 0;
 }
 
 .navLink {
@@ -66,8 +66,29 @@
 }
 
 @media screen and (min-width: 992px) {
+
+  .snap-container > div {
+  scroll-snap-align: none;
+}
+  .logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .navLink {
+    font-size: 1.4rem !important;
+    margin: 0 1rem !important;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .logo {
     width: 10rem;
     height: 10rem;
+  }
+
+  .navLink {
+    font-size: 1.6rem !important;
   }
 }

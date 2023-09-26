@@ -160,10 +160,10 @@
 
 @media screen and (min-width: 1200px) {
   .quienSoy {
-    width: 50%;
+    margin: 0 auto;
   }
 
   .puntos {
-    width: 50%;
+    margin: 20vh auto 0;
   }
 }

@@ -13,7 +13,7 @@ function QuienSoyCarousel() {
         </AttentionSeeker>
         <hr></hr>
         <br></br>
-        <p>
+        <p className="quienSoy-paragraph">
           Tras diez años de experiencia como Responsable de un Departamento
           técnico y supervisor de procesos en una empresa de climatización y
           servicio técnico, creo

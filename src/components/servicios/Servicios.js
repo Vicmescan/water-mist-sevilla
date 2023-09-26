@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import foto1 from "../../assets/images/calefacción.webp";
+import legionela from "../../assets/images/legionela.webp"
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import ServiciosCard from "./ServiciosCard";
@@ -90,7 +91,7 @@ const Servicios = () => {
         <SwiperSlide>
           <ServiciosCard
             title="MANTENIMIENTO HIGIÉNICO SANITARIO"
-            image={foto1}
+            image={legionela}
             body="                BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
                 BLA BLA BLA BLA BLA"
           />

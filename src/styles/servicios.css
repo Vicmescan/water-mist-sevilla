@@ -35,7 +35,7 @@
 
 .service-card-picture {
     min-height: 30vh;
-    max-height: 40vh;
+    max-height: 30vh;
 }
 
 .service-card-body {
@@ -50,7 +50,6 @@
     .servicios {
         margin-top: 15vh;
         width: 90vw !important;
-
     }
 
     .mySwiperServicios {

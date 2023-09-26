@@ -50,7 +50,6 @@
 /* Puntos */
 
 .puntos {
-  /* width: 100%; */
   padding: 12vh 2rem;
   height: 100vh;
   display: flex;
@@ -146,10 +145,16 @@
 @media screen and (min-width: 992px) {
   .quienSoy {
     width: 70%;
+    margin-left: 10vw;
   }
 
   .puntos {
     width: 70%;
+    margin-right: 10vw;
+    margin-top: 20vh;
+  }
+  .logos {
+    padding-bottom: 0;
   }
 }
 

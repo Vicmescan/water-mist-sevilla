@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import foto1 from "../../assets/images/calefacción.webp";
-import { Card } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+import ServiciosCard from "./ServiciosCard";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,7 +18,7 @@ const Servicios = () => {
 
   const handleResize = () => {
     if (window.innerWidth < 1200) {
-      setSlidesPerView(4.5);
+      setSlidesPerView(5);
     }
     if (window.innerWidth < 992) {
       setSlidesPerView(3.2);
@@ -50,115 +51,49 @@ const Servicios = () => {
           disableOnInteraction: true,
         }}
         modules={[Autoplay, FreeMode, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiperServicios"
       >
         <SwiperSlide>
-          <Card className="service-card">
-            <Card.Header as="h2" className="text-center service-card-title">
-              CLIMATIZACIÓN EXTERIOR FRÍO
-            </Card.Header>
-            <Card.Img
-              variant="top"
-              src={foto1}
-              className="service-card-picture"
-            />
-            <Card.Body className="service-card-body">
-              <Card.Title>
-                <b>Microclima y Bioclimatización</b>
-              </Card.Title>
-              <Card.Text>
-                Conoce todas las opciones para climatizar tu negocio o vivienda
+          <ServiciosCard
+            title="CLIMATIZACIÓN EXTERIOR FRÍO"
+            image={foto1}
+            body="Conoce todas las opciones para climatizar tu negocio o vivienda
                 mediante nuestros sistemas de nebulización de agua y
-                evaporativos portátiles.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+                evaporativos portátiles."
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Card className="service-card">
-            <Card.Header as="h2" className="text-center service-card-title">
-              CLIMATIZACIÓN EXTERIOR CALOR
-            </Card.Header>
-            <Card.Img
-              variant="top"
-              src={foto1}
-              className="service-card-picture"
-            />
-            <Card.Body className="service-card-body">
-              <Card.Title>
-                <b>Calefacción</b>
-              </Card.Title>
-              <Card.Text>
-                Te ayudamos a crear un ambiente cálido y agradable en cualquier
+          <ServiciosCard
+            title="CLIMATIZACIÓN EXTERIOR CALOR"
+            image={foto1}
+            body="  Te ayudamos a crear un ambiente cálido y agradable en cualquier
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
-                estufas de gas.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+                estufas de gas."
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Card className="service-card">
-            <Card.Header as="h2" className="text-center service-card-title">
-              ALQUILER EVENTOS
-            </Card.Header>
-            <Card.Img
-              variant="top"
-              src={foto1}
-              className="service-card-picture"
-            />
-            <Card.Body className="service-card-body">
-              <Card.Title>
-                <b>BLA BLA BLA</b>
-              </Card.Title>
-              <Card.Text>
-                BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                BLA BLA BLA BLA BLA
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ServiciosCard
+            title="ALQUILER EVENTOS"
+            image={foto1}
+            body="  BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+                BLA BLA BLA BLA BLA"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Card className="service-card">
-            <Card.Header as="h2" className="text-center service-card-title">
-              REPARACIÓN Y VENTA
-            </Card.Header>
-            <Card.Img
-              variant="top"
-              src={foto1}
-              className="service-card-picture"
-            />
-            <Card.Body className="service-card-body">
-              <Card.Title>
-                <b>BLA BLA BLA</b>
-              </Card.Title>
-              <Card.Text>
-                BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                BLA BLA BLA BLA BLA
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ServiciosCard
+            title="REPARACIÓN Y VENTA"
+            image={foto1}
+            body="BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+                BLA BLA BLA BLA BLA"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Card className="service-card">
-            <Card.Header as="h2" className="text-center service-card-title">
-              MANTENIMIENTO HIGIÉNICO SANITARIO
-            </Card.Header>
-            <Card.Img
-              variant="top"
-              src={foto1}
-              className="service-card-picture"
-            />
-            <Card.Body className="service-card-body">
-              <Card.Title>
-                <b>Servicio Técnico</b>
-              </Card.Title>
-              <Card.Text>
-                Contamos con personal cualificado para realizar labores de
-                control y prevención de legionella y estaremos a tu disposición
-                para lo que necesites.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ServiciosCard
+            title="MANTENIMIENTO HIGIÉNICO SANITARIO"
+            image={foto1}
+            body="                BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+                BLA BLA BLA BLA BLA"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

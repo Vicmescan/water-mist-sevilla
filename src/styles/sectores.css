@@ -27,7 +27,7 @@
   height: 100%;
 }
 
-.mySwiper {
+.mySwiperSectores {
   padding: 1rem !important;
   height: 40vh !important;
 }
@@ -60,7 +60,7 @@
     margin-bottom: 10vh;
   }
 
-  .mySwiper {
+  .mySwiperSectores {
     width: 90vw !important;
   }
 }

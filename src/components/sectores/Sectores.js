@@ -66,7 +66,7 @@ export default function Sectores() {
           disableOnInteraction: true,
         }}
         modules={[Autoplay, FreeMode, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiperSectores"
       >
         <SwiperSlide>
           <SectoresCard

@@ -14,31 +14,25 @@ import CookieConsent from "react-cookie-consent";
 import giralda from "./assets/videos/giralda.mp4";
 import toldo from "./assets/videos/toldo.mp4";
 
-import {Fade} from "react-awesome-reveal";
-
 import "./index.css";
 
 function App() {
   /* Scroll up the page when in load */
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  /* Separation section for the navbar controlling scroll */
-  // const inicio = "inicio";
-  // const servicios = "servicios";
-  // const sectores = "sectores";
-  // const acercaDe = "acercaDe";
-  // const contacto = "contacto";
+  /* Scroll controll throw the Navbar */
+  const [scrollElement, setScrollElement] = useState(["inicio"]);
 
-  const [scrollElement, setScrollElement] = useState("inicio");
+  useEffect(() => {
+    const element = document.getElementById(scrollElement);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [scrollElement]);
 
-  console.log(scrollElement);
-
-  // useEffect(() => {
-  //   document.getElementById(scrollElement).scrollIntoView({behavior: "smooth"})
-  // }, setScrollElement)
-
+  /* Loading page video selection depending width of the screen */
   const [infoVideo, setInfoVideo] = useState(toldo);
   const [opacity, setOpacity] = useState(1);
 
@@ -53,6 +47,7 @@ function App() {
   setTimeout(() => {
     setTimeout((setOpacity(0), 5000));
   }, "1600");
+
 
   return (
     <div className="app">
@@ -75,31 +70,29 @@ function App() {
         setScrollElement={setScrollElement}
       />
       {/* <AnimatedRoutes /> }  (componenente para cambiar de ruta, activar para hacer web multipágina) */}
-      <Fade delay={1600} duration={1500} triggerOnce="true">
-        <div className="snap-container">
-          <div>
-            <section id="inicio"></section>
-            <CardCarousel />
-          </div>
-          <div>
-            <Info />
-          </div>
-          <section id="servicios"></section>
-          <Servicios />
-          <section id="sectores"></section>
-          <Sectores />
-          <div>
-            <section id="acercaDe"></section>
-            <QuienSoy />
-            <Puntos />
-            <Logos />
-          </div>
-          <div>
-            <section id="contacto"></section>
-            <Contacto />
-          </div>
+      <div className="snap-container">
+        <div>
+          <section id="inicio"></section>
+          <CardCarousel />
         </div>
-      </Fade>
+        <div>
+          <Info />
+        </div>
+        <section id="servicios"></section>
+        <Servicios />
+        <section id="sectores"></section>
+        <Sectores />
+        <div>
+          <section id="acercaDe"></section>
+          <QuienSoy />
+          <Puntos />
+          <Logos />
+        </div>
+        <div>
+          <section id="contacto"></section>
+          <Contacto />
+        </div>
+      </div>
 
       <CookieConsent
         location="bottom"

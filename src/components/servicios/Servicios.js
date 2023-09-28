@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import foto1 from "../../assets/images/calefacción.webp";
 import legionela from "../../assets/images/legionela.webp"
+import Invierno from "../../assets/documentos/tarifasInvierno.pdf"
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import ServiciosCard from "./ServiciosCard";
@@ -70,6 +71,7 @@ const Servicios = () => {
             body="  Te ayudamos a crear un ambiente cálido y agradable en cualquier
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
                 estufas de gas."
+            link={Invierno}
           />
         </SwiperSlide>
         <SwiperSlide>

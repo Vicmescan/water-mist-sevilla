@@ -22,7 +22,7 @@ const SectoresCard = ({ pic, title, modalText }) => {
       </Card>
 
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} >
         <Modal.Header closeButton>
           <Modal.Title><h1>{title}</h1></Modal.Title>
         </Modal.Header>

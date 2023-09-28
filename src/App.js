@@ -14,6 +14,8 @@ import CookieConsent from "react-cookie-consent";
 import giralda from "./assets/videos/giralda.mp4";
 import toldo from "./assets/videos/toldo.mp4";
 
+import {Fade} from "react-awesome-reveal";
+
 import "./index.css";
 
 function App() {
@@ -73,29 +75,31 @@ function App() {
         setScrollElement={setScrollElement}
       />
       {/* <AnimatedRoutes /> }  (componenente para cambiar de ruta, activar para hacer web multipágina) */}
-      <div className="snap-container">
-        <div>
-          <section id="inicio"></section>
-          <CardCarousel />
+      <Fade delay={1600} duration={1500} triggerOnce="true">
+        <div className="snap-container">
+          <div>
+            <section id="inicio"></section>
+            <CardCarousel />
+          </div>
+          <div>
+            <Info />
+          </div>
+          <section id="servicios"></section>
+          <Servicios />
+          <section id="sectores"></section>
+          <Sectores />
+          <div>
+            <section id="acercaDe"></section>
+            <QuienSoy />
+            <Puntos />
+            <Logos />
+          </div>
+          <div>
+            <section id="contacto"></section>
+            <Contacto />
+          </div>
         </div>
-        <div>
-          <Info />
-        </div>
-        <section id="servicios"></section>
-        <Servicios />
-        <section id="sectores"></section>
-        <Sectores />
-        <div>
-          <section id="acercaDe"></section>
-          <QuienSoy />
-          <Puntos />
-          <Logos />
-        </div>
-        <div>
-          <section id="contacto"></section>
-          <Contacto />
-        </div>
-      </div>
+      </Fade>
 
       <CookieConsent
         location="bottom"

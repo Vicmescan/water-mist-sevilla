@@ -1,13 +1,11 @@
 import React from "react";
 import { MainCarousel } from "./MainCarousel";
-import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 const CardCarousel = ({ servicios }) => {
   return (
     <>
-      <Fade delay={1600} duration={1500} triggerOnce="true">
         <div className="carousel-background">
           <Container className="cardCarousel">
             <Row>
@@ -24,7 +22,6 @@ const CardCarousel = ({ servicios }) => {
             </Row>
           </Container>
         </div>
-      </Fade>
     </>
   );
 };

@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const ServiciosCard = ({ title, image, body, link }) => {
   return (
-    <a href={link} target="_blank" style={{textDecoration: "none"}} >
+    <a href={link} target="_blank" rel="noreferrer" style={{textDecoration: "none"}} >
     <Card className="service-card">
       <Card.Header as="h5" className="text-center service-card-title">
         {title}

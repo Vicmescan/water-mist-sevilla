@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/water-mist-sevilla/static/css/main.001b8ced.css",
-    "main.js": "/water-mist-sevilla/static/js/main.2b162acb.js",
+    "main.js": "/water-mist-sevilla/static/js/main.9080f5c5.js",
     "static/media/alquiler-eventos.webp": "/water-mist-sevilla/static/media/alquiler-eventos.a36f507b387fc96599e1.webp",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/climatizacion exterior.webp": "/water-mist-sevilla/static/media/climatizacion exterior.5f003f0e85980c41bbb9.webp",
@@ -18,6 +18,7 @@
     "static/media/img1.webp": "/water-mist-sevilla/static/media/img1.5c7572fb2b90e3a9a520.webp",
     "static/media/calefacción.webp": "/water-mist-sevilla/static/media/calefacción.eb00c733f265b0aadcc2.webp",
     "static/media/img4.webp": "/water-mist-sevilla/static/media/img4.eb3806863f8b9f406f5b.webp",
+    "static/media/logoInvierno.webp": "/water-mist-sevilla/static/media/logoInvierno.6b47a61419ea14fbe429.webp",
     "static/media/industrialFoto.webp": "/water-mist-sevilla/static/media/industrialFoto.e7284935f7515a0b1cb7.webp",
     "static/media/deportivoFoto.webp": "/water-mist-sevilla/static/media/deportivoFoto.0d8a3d23a9e4941cf8af.webp",
     "static/media/logo.webp": "/water-mist-sevilla/static/media/logo.98ffc9a02949013fce53.webp",
@@ -26,10 +27,10 @@
     "static/media/junta.webp": "/water-mist-sevilla/static/media/junta.ab09b72bb84f47de0b3d.webp",
     "index.html": "/water-mist-sevilla/index.html",
     "main.001b8ced.css.map": "/water-mist-sevilla/static/css/main.001b8ced.css.map",
-    "main.2b162acb.js.map": "/water-mist-sevilla/static/js/main.2b162acb.js.map"
+    "main.9080f5c5.js.map": "/water-mist-sevilla/static/js/main.9080f5c5.js.map"
   },
   "entrypoints": [
     "static/css/main.001b8ced.css",
-    "static/js/main.2b162acb.js"
+    "static/js/main.9080f5c5.js"
   ]
 }

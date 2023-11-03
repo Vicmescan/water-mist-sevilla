@@ -19,7 +19,7 @@
   -webkit-filter: grayscale(100%);
 }
 
-/* scroll control */
+/* scroll control
 
 .snap-container {
   height: 100vh;
@@ -29,7 +29,7 @@
 
 .snap-container > div {
   scroll-snap-align: start;
-}
+} */
 
 /* header y navbar */
 
@@ -38,8 +38,12 @@
   max-height: 100%;
 }
 
+.logo:nth-child(2) {
+  width: 4rem;
+}
+
 .navBar {
-  background-color:  rgba(252, 252, 252, 0.938) !important;
+  background-color: rgba(252, 252, 252, 0.938) !important;
   padding: 0;
 }
 
@@ -51,13 +55,18 @@
 }
 
 .navLink:hover {
-  color: var(--light-background-color)!important;
+  color: var(--light-background-color) !important;
 }
 
 @media screen and (min-width: 768px) {
   .logo {
     width: 7rem;
     height: 7rem;
+  }
+
+  .logo:nth-child(2) {
+    width: 5.5rem;
+    height: 5.8rem;
   }
   .navLink {
     font-size: 1.6rem !important;
@@ -67,12 +76,17 @@
 
 @media screen and (min-width: 992px) {
 
-  .snap-container > div {
-  scroll-snap-align: none;
-}
+  .snap-container>div {
+    scroll-snap-align: none;
+  }
+
   .logo {
     width: 8rem;
     height: 8rem;
+  }
+  .logo:nth-child(2) {
+    width: 6rem;
+    height: 6rem;
   }
 
   .navLink {
@@ -86,6 +100,10 @@
   .logo {
     width: 10rem;
     height: 10rem;
+  }
+  .logo:nth-child(2) {
+    width: 8rem;
+    height: 8rem;
   }
 
   .navLink {

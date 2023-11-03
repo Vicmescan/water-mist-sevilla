@@ -68,5 +68,6 @@
 @media screen and (min-width: 992px) {
   .sectores {
     height: auto !important;
+    margin-bottom: 10vh;
   }
 }

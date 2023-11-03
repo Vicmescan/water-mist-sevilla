@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
-import foto1 from "../../assets/images/calefacción.webp";
-import legionela from "../../assets/images/legionela.webp"
-import Invierno from "../../assets/documentos/tarifasInvierno.pdf"
+import fotoFrio from "../../assets/images/climatizacion exterior.webp";
+import fotoCalor from "../../assets/images/calefacción.webp";
+import fotoEvento from "../../assets/images/alquiler-eventos.webp";
+import fotoReparacion from "../../assets/images/venta y reparacion.webp";
+import fotoLegionela from "../../assets/images/legionela.webp";
+import Invierno from "../../assets/documentos/tarifasInvierno.pdf";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import ServiciosCard from "./ServiciosCard";
@@ -58,7 +61,7 @@ const Servicios = () => {
         <SwiperSlide>
           <ServiciosCard
             title="CLIMATIZACIÓN EXTERIOR FRÍO"
-            image={foto1}
+            image={fotoFrio}
             body="Conoce todas las opciones para climatizar tu negocio o vivienda
                 mediante nuestros sistemas de nebulización de agua y
                 evaporativos portátiles."
@@ -67,7 +70,7 @@ const Servicios = () => {
         <SwiperSlide>
           <ServiciosCard
             title="CLIMATIZACIÓN EXTERIOR CALOR"
-            image={foto1}
+            image={fotoCalor}
             body="  Te ayudamos a crear un ambiente cálido y agradable en cualquier
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
                 estufas de gas."
@@ -77,25 +80,22 @@ const Servicios = () => {
         <SwiperSlide>
           <ServiciosCard
             title="ALQUILER EVENTOS"
-            image={foto1}
-            body="  BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                BLA BLA BLA BLA BLA"
+            image={fotoEvento}
+            body="Disfruta de una idea original para refrescarte o calentarte. Brindamos experiencias excepcionales. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
           />
         </SwiperSlide>
         <SwiperSlide>
           <ServiciosCard
-            title="REPARACIÓN Y VENTA"
-            image={foto1}
-            body="BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                BLA BLA BLA BLA BLA"
+            title="VENTA/REPARACIÓN"
+            image={fotoReparacion}
+            body="Venta, instalación y reparación de sistemas de nebulización de agua profesional. Disponemos también de calefactores eléctricos y de gas. Venta de componentes."
           />
         </SwiperSlide>
         <SwiperSlide>
           <ServiciosCard
             title="MANTENIMIENTO HIGIÉNICO SANITARIO"
-            image={legionela}
-            body="                BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                BLA BLA BLA BLA BLA"
+            image={fotoLegionela}
+            body="Realizamos el mantenimiento higienico Sanitario de su instalación de nebulización de agua desde su puesta en marcha hasta su parada técnica. Contamos con todos los permisos y certificados exigidos, contando con laboratorio homologado y certificación ENAC. Queremos su tranquilidad y que no se preocupen de nada."
           />
         </SwiperSlide>
       </Swiper>

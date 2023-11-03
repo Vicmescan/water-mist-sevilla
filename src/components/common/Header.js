@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../../assets/images/logo.webp";
+import logoInvierno from "../../assets/images/logoInvierno.webp";
 import menu from "../../assets/images/menu.png"; // Icons made by <a href="https://www.flaticon.com/authors/deha21" title="deha21"> deha21 </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a>
 import { Link } from "react-scroll";
 
@@ -14,6 +15,11 @@ const Header = ({ setScrollElement }) => {
             <img
               className="logo"
               src={logo}
+              alt="Water Mist Sevilla Logo"
+            ></img>
+            <img
+              className="logo"
+              src={logoInvierno}
               alt="Water Mist Sevilla Logo"
             ></img>
           </Navbar.Brand>

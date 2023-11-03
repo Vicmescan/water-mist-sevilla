@@ -28,6 +28,11 @@ import {
   Paisajismo,
 } from "./ModalText.js";
 
+import residencial from "../../assets/images/residencialFoto.webp"
+import industrial from "../../assets/images/industrialFoto.webp"
+import deportivo from "../../assets/images/deportivoFoto.webp"
+import paisajismo from "../../assets/images/paisajismoFoto.webp"
+
 export default function Sectores() {
   const [slidesPerView, setSlidesPerView] = useState(5);
 
@@ -50,7 +55,7 @@ export default function Sectores() {
     handleResize();
     window.addEventListener("resize", handleResize, false);
   }, []);
-  
+
   return (
     <div className="sectores">
       <h1 className="sectores-header">Sectores y Aplicación</h1>
@@ -70,20 +75,6 @@ export default function Sectores() {
       >
         <SwiperSlide>
           <SectoresCard
-            pic={<LiaIndustrySolid size="150px" />}
-            title={"INDUSTRIAL"}
-            modalText={<Industrial />}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SectoresCard
-            pic={<AiOutlineHome size="150px" />}
-            title={"RESIDENCIAL"}
-            modalText={<Residencial />}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SectoresCard
             pic={<IoRestaurantOutline size="150px" />}
             title={"HOSTELERÍA"}
             modalText={<Hosteleria />}
@@ -91,14 +82,32 @@ export default function Sectores() {
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={<MdOutlineSportsBasketball size="150px" />}
+            // pic={<AiOutlineHome size="150px" />}
+            pic={residencial}
+            title={"RESIDENCIAL"}
+            modalText={<Residencial />}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SectoresCard
+            // pic={<LiaIndustrySolid size="150px" />}
+            pic={industrial}
+            title={"INDUSTRIAL"}
+            modalText={<Industrial />}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SectoresCard
+            // pic={<MdOutlineSportsBasketball size="150px" />}
+            pic={deportivo}
             title={"ZONAS DEPORTIVAS Y EVENTOS"}
             modalText={<Deportivas />}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SectoresCard
-            pic={<RiLandscapeLine size="150px" />}
+            // pic={<RiLandscapeLine size="150px" />}
+            pic={paisajismo}
             title={"PAISAJISMO Y EFECTOS VISUALES"}
             modalText={<Paisajismo />}
           />

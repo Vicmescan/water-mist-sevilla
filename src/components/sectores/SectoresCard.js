@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
+import Image from "react-bootstrap/Image";
 
 const SectoresCard = ({ pic, title, modalText }) => {
   const [show, setShow] = useState(false);
@@ -13,7 +14,8 @@ const SectoresCard = ({ pic, title, modalText }) => {
   return (
     <>
       <Card className="service-card" onClick={handleShow} >
-      <Card.Header>{pic}</Card.Header>
+      {/* <Card.Header>{pic}</Card.Header> */}
+      <Image src={pic} /> 
         <Card.Body className="sector service-card-body">
           <Card.Title className="text-center service-card-title">
             <b>{title}</b>

@@ -74,7 +74,7 @@ const Servicios = () => {
             body="  Te ayudamos a crear un ambiente cálido y agradable en cualquier
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
                 estufas de gas."
-            link={Invierno}
+            // link={Invierno}
           />
         </SwiperSlide>
         <SwiperSlide>

@@ -153,6 +153,11 @@
     margin-right: 10vw;
     margin-top: 20vh;
   }
+  
+  .puntos-item {
+    text-align: center;
+  }
+
   .logos {
     padding-bottom: 0;
   }

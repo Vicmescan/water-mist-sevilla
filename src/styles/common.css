@@ -39,7 +39,8 @@
 }
 
 .logo:nth-child(2) {
-  width: 4rem;
+  width: 3.5rem;
+  height:3.8rem;
 }
 
 .navBar {
@@ -101,7 +102,7 @@
     width: 10rem;
     height: 10rem;
   }
-  .logo:nth-child(2) {
+    .logo:nth-child(2) {
     width: 8rem;
     height: 8rem;
   }

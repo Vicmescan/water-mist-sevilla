@@ -14,8 +14,7 @@ const Info = ({ acercaDe }) => {
             </AttentionSeeker>
             <br></br>
             <p className="subtitle">
-              Water Mist Sevilla es una Compañía experta en climatización de
-              gran reputación en Andalucía, con sede en Sevilla.
+              Water Mist Sevilla es una Compañía experta en climatización de "frio y calor", con sede en Sevilla.
             </p>
             <p className="subtitle">
               Desde nuestro inicio, la calidad y la atención personalizada en

@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 const QuienSoy = () => {
   return (
     <div className="quienSoy">
-      <Container>
+      {/* <Container>
         <Row>
           <Col xs={12} sm={5} xxl={3} className="quienSoy-pictureSide">
             <AttentionSeeker effect="flash" delay={500}>
@@ -45,7 +45,7 @@ const QuienSoy = () => {
             </p>
           </Col>
           <Col className=" d-none d-xxl-block">
-            {" "}
+            {" "} */}
             <h1 className="quienSoy-carousel-title">
               <AttentionSeeker effect="flash" delay={500} triggerOnce="true">
                 <b> Water Mist Sevilla</b>
@@ -62,9 +62,9 @@ const QuienSoy = () => {
               Trabajamos con los mejores distribuidores para garantizar que
               nuestros materiales y productos tengan la calidad que mereces.
             </p>
-          </Col>
+          {/* </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 };

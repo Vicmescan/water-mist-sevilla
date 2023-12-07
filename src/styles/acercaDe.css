@@ -28,7 +28,7 @@
 }
 
 .quienSoy-paragraph {
-  color: var(--white-color) !important;
+  color: var(--dark-background-color);
   /* background-color: var(--light-background-color) !important; */
   font-size: 1.3rem;
   text-align: center;
@@ -51,10 +51,11 @@
 
 .puntos {
   padding: 12vh 2rem;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .puntos-item {
@@ -64,7 +65,7 @@
   text-shadow: 0 0 10px var(--dark-background-color);
   border-radius: 5px;
   padding: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 100%;
 }
 
@@ -74,7 +75,7 @@
   align-items: center;
   flex-direction: column;
   margin: 5rem 0 5rem 0;
-  padding-bottom: 15rem;
+  /* padding-bottom: 15rem; */
 }
 
 @media screen and (min-width: 576px) {
@@ -153,11 +154,6 @@
     margin-right: 10vw;
     margin-top: 20vh;
   }
-  
-  .puntos-item {
-    text-align: center;
-  }
-
   .logos {
     padding-bottom: 0;
   }

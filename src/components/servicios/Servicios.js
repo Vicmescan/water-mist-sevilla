@@ -4,7 +4,7 @@ import fotoCalor from "../../assets/images/calefacción.webp";
 import fotoEvento from "../../assets/images/alquiler-eventos.webp";
 import fotoReparacion from "../../assets/images/venta y reparacion.webp";
 import fotoLegionela from "../../assets/images/legionela.webp";
-import Invierno from "../../assets/documentos/tarifasInvierno.pdf";
+// import Invierno from "../../assets/documentos/tarifasInvierno.pdf";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import ServiciosCard from "./ServiciosCard";
@@ -81,7 +81,7 @@ const Servicios = () => {
           <ServiciosCard
             title="ALQUILER EVENTOS"
             image={fotoEvento}
-            body="Disfruta de una idea original para refrescarte o calentarte. Brindamos experiencias excepcionales. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
+            body="Disfruta de una idea original para refrescarte o calentarte. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -95,7 +95,7 @@ const Servicios = () => {
           <ServiciosCard
             title="MANTENIMIENTO HIGIÉNICO SANITARIO"
             image={fotoLegionela}
-            body="Realizamos el mantenimiento higienico Sanitario de su instalación de nebulización de agua desde su puesta en marcha hasta su parada técnica. Contamos con todos los permisos y certificados exigidos, contando con laboratorio homologado y certificación ENAC. Queremos su tranquilidad y que no se preocupen de nada."
+            body="Realizamos el mantenimiento higienico Sanitario de su instalación de nebulización de agua. Queremos su tranquilidad y que no se preocupen de nada."
           />
         </SwiperSlide>
       </Swiper>

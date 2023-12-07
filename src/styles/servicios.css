@@ -1,5 +1,5 @@
 .servicios {
-    height:100vh !important;
+    /* height:100vh !important; */
     width:100vw !important;
     margin: auto;
     background-color: var(--white-color);
@@ -43,7 +43,7 @@
     background-color: var(--light-background-color) !important;
     color: var(--white-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {

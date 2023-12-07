@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
 import { AttentionSeeker } from "react-awesome-reveal";
-import QuienSoyCarousel from "./QuienSoyCarousel";
-import jose from "../../assets/images/jose.webp";
-import Image from "react-bootstrap/Image";
+// import QuienSoyCarousel from "./QuienSoyCarousel";
+// import jose from "../../assets/images/jose.webp";
+// import Image from "react-bootstrap/Image";
 
 const QuienSoy = () => {
   return (
@@ -52,7 +52,7 @@ const QuienSoy = () => {
               </AttentionSeeker>
               <hr></hr>
             </h1>
-            <p className="quienSoy-paragraph-xxl">
+            <p className="quienSoy-paragraph">
               Somos un equipo de profesionales certificados capaces de
               materializar cualquier proyecto de climatización,
               independientemente de su complejidad.<br></br>

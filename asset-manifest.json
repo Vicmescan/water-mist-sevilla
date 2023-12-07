@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/water-mist-sevilla/static/css/main.4908b070.css",
-    "main.js": "/water-mist-sevilla/static/js/main.750a460e.js",
+    "main.css": "/water-mist-sevilla/static/css/main.2a3f2797.css",
+    "main.js": "/water-mist-sevilla/static/js/main.7a4fc705.js",
     "static/media/alquiler-eventos.webp": "/water-mist-sevilla/static/media/alquiler-eventos.a36f507b387fc96599e1.webp",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/climatizacion exterior.webp": "/water-mist-sevilla/static/media/climatizacion exterior.5f003f0e85980c41bbb9.webp",
-    "static/media/tarifasInvierno.pdf": "/water-mist-sevilla/static/media/tarifasInvierno.b075b9fded34b7e9095a.pdf",
     "static/media/toldo.mp4": "/water-mist-sevilla/static/media/toldo.06d77df1816a6002d0bd.mp4",
     "static/media/giralda.mp4": "/water-mist-sevilla/static/media/giralda.21804eb738b285bc284f.mp4",
     "static/media/venta y reparacion.webp": "/water-mist-sevilla/static/media/venta y reparacion.de981343456dfdc21fd9.webp",
     "static/media/paisajismoFoto.webp": "/water-mist-sevilla/static/media/paisajismoFoto.d7084ef72806e63062d9.webp",
-    "static/media/jose.webp": "/water-mist-sevilla/static/media/jose.e853a2e19ad8f9d09e35.webp",
     "static/media/img2.webp": "/water-mist-sevilla/static/media/img2.159216ec6ea2b5a4edab.webp",
     "static/media/img3.webp": "/water-mist-sevilla/static/media/img3.fc614eb05aee838e6ab1.webp",
     "static/media/legionela.webp": "/water-mist-sevilla/static/media/legionela.bb578e404c3764537d26.webp",
@@ -26,11 +24,11 @@
     "static/media/enac.webp": "/water-mist-sevilla/static/media/enac.2213d182955194ec1cc5.webp",
     "static/media/junta.webp": "/water-mist-sevilla/static/media/junta.ab09b72bb84f47de0b3d.webp",
     "index.html": "/water-mist-sevilla/index.html",
-    "main.4908b070.css.map": "/water-mist-sevilla/static/css/main.4908b070.css.map",
-    "main.750a460e.js.map": "/water-mist-sevilla/static/js/main.750a460e.js.map"
+    "main.2a3f2797.css.map": "/water-mist-sevilla/static/css/main.2a3f2797.css.map",
+    "main.7a4fc705.js.map": "/water-mist-sevilla/static/js/main.7a4fc705.js.map"
   },
   "entrypoints": [
-    "static/css/main.4908b070.css",
-    "static/js/main.750a460e.js"
+    "static/css/main.2a3f2797.css",
+    "static/js/main.7a4fc705.js"
   ]
 }

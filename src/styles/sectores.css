@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5rem 0;
+  padding: 5rem 0 10vh 0;
 }
 
 .sector {
@@ -30,7 +30,6 @@
 
 .mySwiperSectores {
   padding: 1rem !important;
-  height: 40vh !important;
 }
 
 .swiper-slide {
@@ -68,7 +67,8 @@
 
 @media screen and (min-width: 992px) {
   .sectores {
-    height: auto !important;
-    margin-bottom: 10vh;
+    /* height: auto !important; */
+    /* margin-bottom: 10vh; */
+    /* padding-top: 20vh; */
   }
 }

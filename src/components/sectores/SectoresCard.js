@@ -15,7 +15,7 @@ const SectoresCard = ({ pic, title, modalText }) => {
     <>
       <Card className="service-card" onClick={handleShow} >
       {/* <Card.Header>{pic}</Card.Header> */}
-      <Image src={pic} /> 
+      <Image src={pic} className="service-card-picture" /> 
         <Card.Body className="sector service-card-body">
           <Card.Title className="text-center service-card-title">
             <b>{title}</b>

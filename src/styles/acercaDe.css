@@ -56,6 +56,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  list-style: none;
 }
 
 .puntos-item {
@@ -148,7 +149,7 @@
     width: 70%;
     margin-left: 10vw;
   }
-
+  
   .puntos {
     width: 70%;
     margin-right: 10vw;
@@ -162,10 +163,15 @@
 @media screen and (min-width: 1200px) {
   .quienSoy {
     margin: 0 auto;
+    padding-top: 25vh !important;
   }
 
   .puntos {
-    margin: 20vh auto 0;
+    margin: 20vh auto 20vh;
+    padding: 10vh 20vh;
+  }
+  .puntos-item {
+    font-size: 1.7rem;
   }
 
   .quienSoy-paragraph-xxl {

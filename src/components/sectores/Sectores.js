@@ -14,11 +14,11 @@ import "swiper/css/navigation";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
 
 import SectoresCard from "./SectoresCard";
-import { LiaIndustrySolid } from "react-icons/lia";
-import { AiOutlineHome } from "react-icons/ai";
-import { IoRestaurantOutline } from "react-icons/io5";
-import { MdOutlineSportsBasketball } from "react-icons/md";
-import { RiLandscapeLine } from "react-icons/ri";
+// import { LiaIndustrySolid } from "react-icons/lia";
+// import { AiOutlineHome } from "react-icons/ai";
+// import { IoRestaurantOutline } from "react-icons/io5";
+// import { MdOutlineSportsBasketball } from "react-icons/md";
+// import { RiLandscapeLine } from "react-icons/ri";
 
 import {
   Industrial,
@@ -28,10 +28,11 @@ import {
   Paisajismo,
 } from "./ModalText.js";
 
-import residencial from "../../assets/images/residencialFoto.webp"
-import industrial from "../../assets/images/industrialFoto.webp"
-import deportivo from "../../assets/images/deportivoFoto.webp"
-import paisajismo from "../../assets/images/paisajismoFoto.webp"
+import residencial from "../../assets/images/residencial.webp"
+import hosteleria from "../../assets/images/hosteleria.webp"
+import industrial from "../../assets/images/industrial.webp"
+import deportivo from "../../assets/images/deportivo.webp"
+import paisajismo from "../../assets/images/paisajismo.webp"
 
 export default function Sectores() {
   const [slidesPerView, setSlidesPerView] = useState(5);
@@ -75,7 +76,8 @@ export default function Sectores() {
       >
         <SwiperSlide>
           <SectoresCard
-            pic={<IoRestaurantOutline size="150px" />}
+            pic={hosteleria}
+            // pic={<IoRestaurantOutline size="150px" />}
             title={"HOSTELERÍA"}
             modalText={<Hosteleria />}
           />

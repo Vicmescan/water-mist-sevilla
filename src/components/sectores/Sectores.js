@@ -26,13 +26,13 @@ import {
   Hosteleria,
   Deportivas,
   Paisajismo,
-} from "./ModalText.js";
+} from "./SectoresModalText.js";
 
-import residencial from "../../assets/images/residencial.webp"
-import hosteleria from "../../assets/images/hosteleria.webp"
-import industrial from "../../assets/images/industrial.webp"
-import deportivo from "../../assets/images/deportivo.webp"
-import paisajismo from "../../assets/images/paisajismo.webp"
+import residencial from "../../assets/images/residencial.webp";
+import hosteleria from "../../assets/images/hosteleria.webp";
+import industrial from "../../assets/images/industrial.webp";
+import deportivo from "../../assets/images/deportivo.webp";
+import paisajismo from "../../assets/images/paisajismo.webp";
 
 export default function Sectores() {
   const [slidesPerView, setSlidesPerView] = useState(5);

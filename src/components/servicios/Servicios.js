@@ -9,6 +9,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import ServiciosCard from "./ServiciosCard";
 
+// import modal information
+import {
+  Frio,
+  Calor,
+  Eventos,
+  Reparacion,
+  Legionela,
+} from "./ServiciosModalInfo.js";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -65,6 +74,7 @@ const Servicios = () => {
             body="Conoce todas las opciones para climatizar tu negocio o vivienda
                 mediante nuestros sistemas de nebulización de agua y
                 evaporativos portátiles."
+            modalInfo={<Frio />}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -74,6 +84,7 @@ const Servicios = () => {
             body="  Te ayudamos a crear un ambiente cálido y agradable en cualquier
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
                 estufas de gas."
+            modalInfo={<Calor />}
             // link={Invierno}
           />
         </SwiperSlide>
@@ -82,6 +93,7 @@ const Servicios = () => {
             title="ALQUILER EVENTOS"
             image={fotoEvento}
             body="Disfruta de una idea original para refrescarte o calentarte. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
+            modalInfo={<Calor />}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -89,6 +101,7 @@ const Servicios = () => {
             title="VENTA/REPARACIÓN"
             image={fotoReparacion}
             body="Venta, instalación y reparación de sistemas de nebulización de agua profesional. Disponemos también de calefactores eléctricos y de gas. Venta de componentes."
+            modalInfo={<Reparacion />}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -96,6 +109,7 @@ const Servicios = () => {
             title="MANTENIMIENTO HIGIÉNICO SANITARIO"
             image={fotoLegionela}
             body="Realizamos el mantenimiento higienico Sanitario de su instalación de nebulización de agua. Queremos su tranquilidad y que no se preocupen de nada."
+            modalInfo={<Legionela />}
           />
         </SwiperSlide>
       </Swiper>

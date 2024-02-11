@@ -6,11 +6,13 @@ import lanutec from "../../assets/images/lanutec.webp";
 const Logos = () => {
   return (
     <>
-      <h3 className="quienSoy-title mt-5">Siguiendo la normativa de:</h3>
       <div className="logos">
-        <img src={junta} alt="junta" />
-        <img src={lanutec} alt="lanutec" />
         <img src={enac} alt="enac" />
+        <div className="d-flex-column justify-content-center align-items-center">
+          <p className="text-center mt-5" style={{fontStyle: "italic", fontWeight: "bold", color: "rgb(42,124,111)"}}>Siguiendo la normativa de:</p>
+          <img src={junta} alt="junta" />
+        </div>
+        <img src={lanutec} alt="lanutec" />
       </div>
     </>
   );

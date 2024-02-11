@@ -37,13 +37,13 @@ export const MainCarousel = () => {
       <Carousel.Item>
         <img className="d-block w-100 carousel-image" src={img5} alt="Fifth slide" />
         <Carousel.Caption>
-          <h3 className="carousel-h3">Realización de proyecto y presupuesto sin compromiso</h3>
+          <h3 className="carousel-h3">Autorización sanitaria reglamentaria siguiendo la normativa de la Junta de Andalucía</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 carousel-image" src={img6} alt="Fifth slide" />
         <Carousel.Caption>
-          <h3 className="carousel-h3">Autorización sanitaria reglamentaria siguiendo la normativa de la Junta de Andalucía</h3>
+          <h3 className="carousel-h3">Realización de proyecto y presupuesto sin compromiso</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

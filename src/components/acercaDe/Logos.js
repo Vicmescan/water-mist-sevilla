@@ -6,9 +6,9 @@ import lanutec from "../../assets/images/lanutec.webp";
 const Logos = () => {
   return (
     <>
-      <div className="logos">
+      <div className="logos d-flex justify-content-center align-items-center">
         <img src={enac} alt="enac" />
-        <div className="d-flex-column justify-content-center align-items-center">
+        <div>
           <p className="text-center mt-5" style={{fontStyle: "italic", fontWeight: "bold", color: "rgb(42,124,111)"}}>Siguiendo la normativa de:</p>
           <img src={junta} alt="junta" />
         </div>

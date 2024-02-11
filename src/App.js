@@ -76,7 +76,7 @@ function App() {
           <CardCarousel />
         </div>
         <div>
-          <Info />
+          <Info setScrollElement={setScrollElement} />
         </div>
         <section id="servicios"></section>
         <Servicios />

@@ -3,7 +3,7 @@ import { AttentionSeeker, Fade } from "react-awesome-reveal";
 import { Button } from "react-bootstrap";
 import { Link } from "react-scroll";
 
-const Info = ({ acercaDe }) => {
+const Info = ({ acercaDe, setScrollElement }) => {
   return (
     <div className="info-background">
         <div className="info-text">
@@ -25,7 +25,7 @@ const Info = ({ acercaDe }) => {
               necesidades de climatización, a nivel particular y empresarial.
             </p>
             <Link className="nav-Link navLink" smoth="true" to={acercaDe}>
-              <Button className="service-button">Acerca de Nosotros</Button>
+              <Button className="service-button" onClick={() => setScrollElement(["acercaDe"]) }>Acerca de Nosotros</Button>
             </Link>
           </Fade>
         </div>

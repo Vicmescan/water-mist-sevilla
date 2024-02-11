@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/water-mist-sevilla/static/css/main.fa4c1a10.css",
-    "main.js": "/water-mist-sevilla/static/js/main.a72dd31e.js",
+    "main.js": "/water-mist-sevilla/static/js/main.d2c583ae.js",
     "static/media/alquiler-eventos.webp": "/water-mist-sevilla/static/media/alquiler-eventos.a36f507b387fc96599e1.webp",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/climatizacion exterior.webp": "/water-mist-sevilla/static/media/climatizacion exterior.5f003f0e85980c41bbb9.webp",
@@ -28,10 +28,10 @@
     "static/media/lanutec.webp": "/water-mist-sevilla/static/media/lanutec.3e599f327121018e71e3.webp",
     "index.html": "/water-mist-sevilla/index.html",
     "main.fa4c1a10.css.map": "/water-mist-sevilla/static/css/main.fa4c1a10.css.map",
-    "main.a72dd31e.js.map": "/water-mist-sevilla/static/js/main.a72dd31e.js.map"
+    "main.d2c583ae.js.map": "/water-mist-sevilla/static/js/main.d2c583ae.js.map"
   },
   "entrypoints": [
     "static/css/main.fa4c1a10.css",
-    "static/js/main.a72dd31e.js"
+    "static/js/main.d2c583ae.js"
   ]
 }

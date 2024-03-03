@@ -93,7 +93,7 @@ const Servicios = () => {
             title="ALQUILER EVENTOS"
             image={fotoEvento}
             body="Disfruta de una idea original para refrescarte o calentarte. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
-            modalInfo={<Calor />}
+            modalInfo={<Eventos />}
           />
         </SwiperSlide>
         <SwiperSlide>

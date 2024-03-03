@@ -9,6 +9,7 @@ import QuienSoy from "./components/acercaDe/QuienSoy";
 import Puntos from "./components/acercaDe/Puntos";
 import Logos from "./components/acercaDe/Logos";
 import Contacto from "./components/contacto/Contacto";
+import Footer from "./components/footer/Footer";
 import CookieConsent from "react-cookie-consent";
 
 import giralda from "./assets/videos/giralda.mp4";
@@ -92,6 +93,7 @@ function App() {
           <section id="contacto"></section>
           <Contacto />
         </div>
+        <Footer />
       </div>
 
       <CookieConsent

@@ -7,16 +7,23 @@ const Footer = (props) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const [show2, setShow2] = useState(false);
+
+  const handleClose2 = () => setShow2(false);
+  const handleShow2 = () => setShow2(true);
+
   return (
     <>
-      <Navbar className="footer" onClick={handleShow}>
+      <Navbar className="footer">
         <Container>
-          <Navbar.Brand className="footer-text" href="#home">
+          <Navbar.Brand className="footer-text" onClick={handleShow}>
             Pólítica de privacidad
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text></Navbar.Text>
+          <Navbar.Brand className="footer-text" onClick={handleShow2}>
+            Condiciones Legales
+          </Navbar.Brand>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -30,6 +37,20 @@ const Footer = (props) => {
         <Modal.Body>Aquí van los Terminos y Condiciones y tal </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
+            Cerrar
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal size="lg" show={show2} onHide={handleClose2}>
+        <Modal.Header closeButton>
+          <Modal.Title>
+            <h1>Condiciones legales</h1>
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Aquí van los Terminos y Condiciones y tal </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose2}>
             Cerrar
           </Button>
         </Modal.Footer>

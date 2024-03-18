@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Card, Modal, Button } from "react-bootstrap";
+import { Card, Modal, Button, Carousel } from "react-bootstrap";
 
-const ServiciosCard = ({ title, image, body, modalInfo }) => {
+const ServiciosCard = ({ title, image, body, modalInfo, carrouselPics }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,6 +25,17 @@ const ServiciosCard = ({ title, image, body, modalInfo }) => {
             <h1>{title}</h1>
           </Modal.Title>
         </Modal.Header>
+        <Carousel className="modalCararousel">
+          {carrouselPics ? carrouselPics.map((pic, index) => (
+            <Carousel.Item key={index}>
+              <img
+                className="modalCarrouselPic"
+                src={pic}
+                alt={`Imagen ${index + 1}`}
+              />
+            </Carousel.Item>
+          )) : null}
+        </Carousel>
         <Modal.Body>{modalInfo}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

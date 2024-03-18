@@ -27,6 +27,10 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
 
+// import imagenes for modal carrusel
+import { FrioModal, CalorModal, EventosModal, ReparacionModal, LegionelaModal } from "./ServiciosModalImgs.js";
+
+
 const Servicios = () => {
   const [slidesPerView, setSlidesPerView] = useState(5);
 
@@ -75,6 +79,7 @@ const Servicios = () => {
                 mediante nuestros sistemas de nebulización de agua y
                 evaporativos portátiles."
             modalInfo={<Frio />}
+            carrouselPics={FrioModal}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -85,6 +90,7 @@ const Servicios = () => {
                 espacio gracias a nuestros sistemas de calefacción infrarroja y
                 estufas de gas."
             modalInfo={<Calor />}
+            carrouselPics={CalorModal}
             // link={Invierno}
           />
         </SwiperSlide>
@@ -94,6 +100,7 @@ const Servicios = () => {
             image={fotoEvento}
             body="Disfruta de una idea original para refrescarte o calentarte. El mejor equipo a su servicio para instalar a su medida un confortable ambiente para su evento inolvidable. Consúltenos."
             modalInfo={<Eventos />}
+            carrouselPics={EventosModal}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -102,6 +109,7 @@ const Servicios = () => {
             image={fotoReparacion}
             body="Venta, instalación y reparación de sistemas de nebulización de agua profesional. Disponemos también de calefactores eléctricos y de gas. Venta de componentes."
             modalInfo={<Reparacion />}
+            carrouselPics={ReparacionModal}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -110,6 +118,7 @@ const Servicios = () => {
             image={fotoLegionela}
             body="Realizamos el mantenimiento higienico Sanitario de su instalación de nebulización de agua. Queremos su tranquilidad y que no se preocupen de nada."
             modalInfo={<Legionela />}
+            carrouselPics={LegionelaModal}
           />
         </SwiperSlide>
       </Swiper>

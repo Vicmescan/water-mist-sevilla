@@ -59,6 +59,18 @@
   color: var(--light-background-color) !important;
 }
 
+.footer {
+  background-color: var(--light-background-color) !important;
+}
+
+.footer-text {
+  color: var(--white-color) !important;
+}
+.footer-text:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     width: 7rem;

@@ -30,8 +30,9 @@
 .quienSoy-paragraph {
   color: var(--dark-background-color);
   /* background-color: var(--light-background-color) !important; */
-  font-size: 1.3rem;
+  font-size: 1.5rem !important;
   text-align: center;
+  font-style: italic;
   text-shadow: 0 0 10px var(--dark-background-color);
   border-radius: 5px;
 }

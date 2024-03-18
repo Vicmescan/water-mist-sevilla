@@ -1,4 +1,3 @@
-import frio1 from "../../assets/images/imagenesFrio/1.webp";
 import frio2 from "../../assets/images/imagenesFrio/2.webp";
 import frio3 from "../../assets/images/imagenesFrio/3.webp";
 import frio4 from "../../assets/images/imagenesFrio/4.webp";

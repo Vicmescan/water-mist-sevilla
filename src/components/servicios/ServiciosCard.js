@@ -1,11 +1,23 @@
 import React, { useState } from "react";
 import { Card, Modal, Button, Carousel } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
 
 const ServiciosCard = ({ title, image, body, modalInfo, carrouselPics }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const location = useLocation();
+  (function(window, location) {
+    window.addEventListener("popstate", function() {
+      if(location.hash === "#!/stealingyourhistory") {
+            setTimeout(function(){
+              location.replace("http://localhost:3000/");
+            },0);
+      }
+    }, false);
+}(window, location));
 
   return (
     <>

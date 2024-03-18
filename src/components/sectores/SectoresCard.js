@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import { useLocation } from "react-router-dom"; 
 
 const SectoresCard = ({ pic, title, modalText }) => {
   const [show, setShow] = useState(false);
@@ -10,6 +11,16 @@ const SectoresCard = ({ pic, title, modalText }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const location = useLocation();
+  (function(window, location) {
+    window.addEventListener("popstate", function() {
+      if(location.hash === "#!/stealingyourhistory") {
+            setTimeout(function(){
+              location.replace("http://localhost:3000/");
+            },0);
+      }
+    }, false);
+}(window, location));
 
   return (
     <>
@@ -24,7 +35,7 @@ const SectoresCard = ({ pic, title, modalText }) => {
       </Card>
 
 
-      <Modal size="lg" show={show} onHide={handleClose} >
+      <Modal className=" modal-fullscreen" size="lg" show={show} onHide={handleClose} >
         <Modal.Header closeButton>
           <Modal.Title><h1>{title}</h1></Modal.Title>
         </Modal.Header>

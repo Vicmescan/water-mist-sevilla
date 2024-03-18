@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Container, Modal, Button } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
 
 const Footer = (props) => {
   const [show, setShow] = useState(false);
@@ -11,6 +12,18 @@ const Footer = (props) => {
 
   const handleClose2 = () => setShow2(false);
   const handleShow2 = () => setShow2(true);
+
+
+  const location = useLocation();
+  (function(window, location) {
+    window.addEventListener("popstate", function() {
+      if(location.hash === "#!/stealingyourhistory") {
+            setTimeout(function(){
+              location.replace("http://localhost:3000/");
+            },0);
+      }
+    }, false);
+}(window, location));
 
   return (
     <>

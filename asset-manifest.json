@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/water-mist-sevilla/static/css/main.fa4c1a10.css",
-    "main.js": "/water-mist-sevilla/static/js/main.32272efe.js",
+    "main.css": "/water-mist-sevilla/static/css/main.ecc361c4.css",
+    "main.js": "/water-mist-sevilla/static/js/main.55766e8d.js",
     "static/media/alquiler-eventos.webp": "/water-mist-sevilla/static/media/alquiler-eventos.a36f507b387fc96599e1.webp",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/climatizacion exterior.webp": "/water-mist-sevilla/static/media/climatizacion exterior.5f003f0e85980c41bbb9.webp",
     "static/media/toldo.mp4": "/water-mist-sevilla/static/media/toldo.06d77df1816a6002d0bd.mp4",
     "static/media/giralda.mp4": "/water-mist-sevilla/static/media/giralda.21804eb738b285bc284f.mp4",
     "static/media/venta y reparacion.webp": "/water-mist-sevilla/static/media/venta y reparacion.de981343456dfdc21fd9.webp",
+    "static/media/1.webp": "/water-mist-sevilla/static/media/1.ad159f325e73c494c599.webp",
     "static/media/paisajismo.webp": "/water-mist-sevilla/static/media/paisajismo.e221d7cbaa6f63ffea9a.webp",
+    "static/media/4.webp": "/water-mist-sevilla/static/media/4.4fc937182b57d77715b4.webp",
+    "static/media/3.webp": "/water-mist-sevilla/static/media/3.6c6993764e2ac75f0421.webp",
     "static/media/hosteleria.webp": "/water-mist-sevilla/static/media/hosteleria.667c2aadeac2fdbd5da1.webp",
+    "static/media/2.webp": "/water-mist-sevilla/static/media/2.b8f5833f908cc3160170.webp",
     "static/media/img2.webp": "/water-mist-sevilla/static/media/img2.159216ec6ea2b5a4edab.webp",
+    "static/media/5.webp": "/water-mist-sevilla/static/media/5.e21ee3ffa9ab5ab23cc1.webp",
     "static/media/deportivo.webp": "/water-mist-sevilla/static/media/deportivo.f549c7fe42affa42743a.webp",
     "static/media/img3.webp": "/water-mist-sevilla/static/media/img3.fc614eb05aee838e6ab1.webp",
     "static/media/industrial.webp": "/water-mist-sevilla/static/media/industrial.60be61da1b87d3f8726f.webp",
@@ -26,12 +31,13 @@
     "static/media/enac.webp": "/water-mist-sevilla/static/media/enac.2213d182955194ec1cc5.webp",
     "static/media/junta.webp": "/water-mist-sevilla/static/media/junta.ab09b72bb84f47de0b3d.webp",
     "static/media/lanutec.webp": "/water-mist-sevilla/static/media/lanutec.3e599f327121018e71e3.webp",
+    "static/media/6.webp": "/water-mist-sevilla/static/media/6.d966794b28a71b6b31c0.webp",
     "index.html": "/water-mist-sevilla/index.html",
-    "main.fa4c1a10.css.map": "/water-mist-sevilla/static/css/main.fa4c1a10.css.map",
-    "main.32272efe.js.map": "/water-mist-sevilla/static/js/main.32272efe.js.map"
+    "main.ecc361c4.css.map": "/water-mist-sevilla/static/css/main.ecc361c4.css.map",
+    "main.55766e8d.js.map": "/water-mist-sevilla/static/js/main.55766e8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4c1a10.css",
-    "static/js/main.32272efe.js"
+    "static/css/main.ecc361c4.css",
+    "static/js/main.55766e8d.js"
   ]
 }

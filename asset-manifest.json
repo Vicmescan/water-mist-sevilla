@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/water-mist-sevilla/static/css/main.ecc361c4.css",
-    "main.js": "/water-mist-sevilla/static/js/main.e0ba8a9c.js",
+    "main.css": "/water-mist-sevilla/static/css/main.94daf877.css",
+    "main.js": "/water-mist-sevilla/static/js/main.6e527a80.js",
     "static/media/alquiler-eventos.webp": "/water-mist-sevilla/static/media/alquiler-eventos.a36f507b387fc96599e1.webp",
     "static/media/catedral1.webp": "/water-mist-sevilla/static/media/catedral1.290545ee7da38d957380.webp",
     "static/media/climatizacion exterior.webp": "/water-mist-sevilla/static/media/climatizacion exterior.5f003f0e85980c41bbb9.webp",
@@ -16,9 +16,12 @@
     "static/media/2.webp": "/water-mist-sevilla/static/media/2.b8f5833f908cc3160170.webp",
     "static/media/img2.webp": "/water-mist-sevilla/static/media/img2.159216ec6ea2b5a4edab.webp",
     "static/media/5.webp": "/water-mist-sevilla/static/media/5.e21ee3ffa9ab5ab23cc1.webp",
+    "static/media/Politica_De_Privacidad.pdf": "/water-mist-sevilla/static/media/Politica_De_Privacidad.d7b5d89c01d5ed3dafa0.pdf",
     "static/media/deportivo.webp": "/water-mist-sevilla/static/media/deportivo.f549c7fe42affa42743a.webp",
+    "static/media/Cookies.pdf": "/water-mist-sevilla/static/media/Cookies.d90170f7ef01c75e39b8.pdf",
     "static/media/img3.webp": "/water-mist-sevilla/static/media/img3.fc614eb05aee838e6ab1.webp",
     "static/media/industrial.webp": "/water-mist-sevilla/static/media/industrial.60be61da1b87d3f8726f.webp",
+    "static/media/Aviso_Legal.pdf": "/water-mist-sevilla/static/media/Aviso_Legal.fc6759b6f4dd6c5f54b3.pdf",
     "static/media/legionela.webp": "/water-mist-sevilla/static/media/legionela.bb578e404c3764537d26.webp",
     "static/media/img5.webp": "/water-mist-sevilla/static/media/img5.65adfb9036dcb8e961cb.webp",
     "static/media/img1.webp": "/water-mist-sevilla/static/media/img1.5c7572fb2b90e3a9a520.webp",
@@ -33,11 +36,11 @@
     "static/media/lanutec.webp": "/water-mist-sevilla/static/media/lanutec.3e599f327121018e71e3.webp",
     "static/media/6.webp": "/water-mist-sevilla/static/media/6.d966794b28a71b6b31c0.webp",
     "index.html": "/water-mist-sevilla/index.html",
-    "main.ecc361c4.css.map": "/water-mist-sevilla/static/css/main.ecc361c4.css.map",
-    "main.e0ba8a9c.js.map": "/water-mist-sevilla/static/js/main.e0ba8a9c.js.map"
+    "main.94daf877.css.map": "/water-mist-sevilla/static/css/main.94daf877.css.map",
+    "main.6e527a80.js.map": "/water-mist-sevilla/static/js/main.6e527a80.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc361c4.css",
-    "static/js/main.e0ba8a9c.js"
+    "static/css/main.94daf877.css",
+    "static/js/main.6e527a80.js"
   ]
 }

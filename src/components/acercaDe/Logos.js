@@ -7,8 +7,9 @@ const Logos = () => {
   return (
     <>
       <div className="logos d-flex flex-column justify-content-center align-items-center">
-        <div>
+        <div className="logos d-flex flex-column flex-md-row justify-content-center align-items-center">
           <img src={enac} alt="enac" />
+          <br></br>
           <img src={lanutec} alt="lanutec" />
         </div>
         <div>

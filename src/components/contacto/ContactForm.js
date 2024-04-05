@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { Form, Button, Modal } from "react-bootstrap";
+import React from "react";
+import { Form, Button } from "react-bootstrap";
 import { Zoom } from "react-awesome-reveal";
+import privacidad from "../../assets/documentos/Politica_De_Privacidad.pdf";
 
 function ContactForm() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <>
       <Zoom delay={200} duration={2000} direction="right" triggerOnce="true">
         <div className="contactForm">
           <h1 className="text-center">O escríbanos</h1>
           <hr></hr>
-          <Form action="https://formsubmit.co/orejitax@gmail.com" method="POST">
+          <Form
+            action="https://formsubmit.co/info@watermists.com"
+            method="POST"
+          >
             <Form.Group className="mb-3">
               <Form.Label>Nombre *</Form.Label>
               <Form.Control
@@ -49,12 +49,19 @@ function ContactForm() {
             <Form.Group className="mb-3 d-flex">
               <Form.Check
                 required
-                label="Está de acuerdo con las"
                 feedback="Debe estar de acuerdo para continuar"
                 feedbackType="invalid"
               />
               <>&nbsp;</>
-              <p className="privacidad-link" onClick={handleShow}>políticas de privacidad</p>
+              <p style={{textAlign: "left", fontSize: "12px"}}>
+                Utilizaremos sus datos para responder consultas, enviar
+                comunicaciones comerciales y realizar análisis estadísticos.
+                Para más información sobre el tratamiento y sus derechos,
+                consulte las{" "}
+                <a className="privacidad-link" href={privacidad} target="_blank" rel="noreferrer">
+                  políticas de privacidad
+                </a>
+              </p>
             </Form.Group>
             <br></br>
             <Button
@@ -65,29 +72,15 @@ function ContactForm() {
               Enviar
             </Button>
 
-            <input
+            {/*      <input
               type="hidden"
               name="_next"
               value="http://localhost:3000/#/contacto"
-            ></input>
+            ></input> */}
             <input type="hidden" name="_captcha" value="false"></input>
           </Form>
         </div>
       </Zoom>
-
-      <Modal size="lg" show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>
-            <h1>Política de privacidad</h1>
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Aquí van los Terminos y Condiciones y tal </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Cerrar
-          </Button>
-        </Modal.Footer>
-      </Modal>
     </>
   );
 }

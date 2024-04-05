@@ -35,7 +35,8 @@ function App() {
 
   /* Loading page video selection depending width of the screen */
   const [infoVideo, setInfoVideo] = useState(toldo);
-  const [opacity, setOpacity] = useState(1);
+  const [opacity, setOpacity] = useState(null);
+  const [zetaIndex, setZetaIndex] = useState(10);
 
   useEffect(() => {
     if (window.innerWidth < 576) {
@@ -45,10 +46,22 @@ function App() {
     }
   }, []);
 
-  setTimeout(() => {
-    setTimeout((setOpacity(0), 5000));
-  }, "1600");
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setOpacity(1);
+    },2000); // 5 segundos de retraso
 
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (opacity !== null && opacity > 0) {
+      const countdownTimer = setTimeout(() => {
+        setOpacity(opacity - 0.25);
+      }, 50); // 1 segundo
+      return (() => clearTimeout(countdownTimer), setZetaIndex(0));
+    }
+  }, [opacity]);
 
   return (
     <div className="app">
@@ -58,7 +71,7 @@ function App() {
         loop
         muted
         className="info-video"
-        style={{ opacity: `${opacity}` }}
+        style={{ opacity: `${opacity}`, zIndex: `${zetaIndex}` }}
       >
         {" "}
       </video>
@@ -74,7 +87,7 @@ function App() {
       <div className="snap-container">
         <div>
           <section id="inicio"></section>
-          <CardCarousel />
+          <CardCarousel setScrollElement={setScrollElement}/>
         </div>
         <div>
           <Info setScrollElement={setScrollElement} />

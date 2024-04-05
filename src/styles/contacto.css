@@ -62,6 +62,7 @@
 .privacidad-link {
   cursor: pointer;
   text-decoration: underline;
+  color: var(--white-color) !important;
 }
 
 

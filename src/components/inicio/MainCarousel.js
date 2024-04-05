@@ -23,7 +23,7 @@ export const MainCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100 carousel-image" src={img3} alt="Third slide" />
+        <img className="d-block w-100 carousel-image" src={img3} alt="Third slide" style={{ objectPosition: "top"}}/>
         <Carousel.Caption>
           <h3 className="carousel-h3">Diseños adaptables y personalizables</h3>
         </Carousel.Caption>

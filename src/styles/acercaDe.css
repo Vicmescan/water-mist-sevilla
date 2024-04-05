@@ -72,10 +72,10 @@
 }
 
 .logos {
-  display: flex;
+/*   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   margin: 5rem 0 5rem 0;
   /* padding-bottom: 15rem; */
 }
@@ -164,11 +164,10 @@
 @media screen and (min-width: 1200px) {
   .quienSoy {
     margin: 0 auto;
-    padding-top: 25vh !important;
   }
 
   .puntos {
-    margin: 20vh auto 20vh;
+    margin: 40vh auto 20vh;
     padding: 10vh 20vh;
   }
   .puntos-item {
